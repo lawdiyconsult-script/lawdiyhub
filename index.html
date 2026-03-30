@@ -38,7 +38,7 @@
             </div>
         </div>
 
-        <div id="content-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div id="content-grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-8 xl:grid-cols-10 gap-3">
             <div class="col-span-full text-center py-20 text-gray-400 animate-pulse">กำลังดึงข้อมูลล่าสุด...</div>
         </div>
     </main>
@@ -65,18 +65,20 @@
                 return;
             }
             grid.innerHTML = data.map(item => `
-                <div class="bg-white rounded-xl shadow-md overflow-hidden border-b-4 border-law-orange hover:shadow-xl transition-all">
-                    <img src="${item.thumbnail}" class="w-full h-48 object-cover">
-                    <div class="p-5">
-                        <h3 class="font-bold text-lg mb-2 leading-tight h-14 overflow-hidden">${item.title}</h3>
-                        <p class="text-gray-600 text-sm mb-4 line-clamp-3 h-20">${item.summary || 'สรุปเนื้อหาจากวิดีโอ...'}</p>
-                        <div class="flex justify-between items-center pt-4 border-t">
-                            <a href="${item.videoUrl}" target="_blank" class="text-law-orange font-bold hover:underline">📺 ชมวิดีโอ</a>
-                            <button class="bg-gray-100 text-gray-700 px-3 py-1 rounded text-sm font-semibold hover:bg-law-orange hover:text-white">📂 ไฟล์แนบ</button>
+                    <div class="bg-white rounded shadow-sm overflow-hidden border-b-2 border-law-orange hover:shadow-md transition-all text-xs">
+                        <div class="relative">
+                            <img src="${item.thumbnail}" class="w-full h-20 object-cover">
+                            ${item.downloadUrl ? '<span class="absolute top-0 right-0 bg-green-500 text-white px-1">📁</span>' : ''}
+                        </div>
+                        <div class="p-2">
+                            <h3 class="font-bold leading-tight h-8 overflow-hidden mb-1">${item.title}</h3>
+                            <div class="flex flex-col gap-1">
+                                <a href="${item.videoUrl}" target="_blank" class="text-law-orange font-bold hover:underline">📺 ดูคลิป</a>
+                                ${item.downloadUrl ? `<a href="${item.downloadUrl}" target="_blank" class="text-blue-600 font-bold hover:underline">📂 โหลดไฟล์</a>` : ''}
+                            </div>
                         </div>
                     </div>
-                </div>
-            `).join('');
+                `).join('');
         }
 
         function filterContent() {
