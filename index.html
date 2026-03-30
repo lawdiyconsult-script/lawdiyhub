@@ -65,24 +65,28 @@
                 return;
             }
             grid.innerHTML = data.map(item => `
-    <div class="bg-white rounded-xl shadow-sm overflow-hidden border-b-4 border-law-orange hover:shadow-lg transition-all text-sm group">
-        <div class="relative overflow-hidden">
-            <img src="${item.thumbnail}" class="w-full h-40 object-cover group-hover:scale-105 transition-transform duration-300">
-            ${item.downloadUrl ? '<span class="absolute top-2 right-2 bg-green-600 text-white px-2 py-1 rounded-md text-[10px] font-bold shadow-md">มีไฟล์แนบ 📁</span>' : ''}
-        </div>
-        <div class="p-4">
-            <h3 class="font-bold leading-snug h-10 overflow-hidden mb-3 text-gray-800 line-clamp-2">${item.title}</h3>
-            <div class="flex flex-col gap-2">
-                <a href="${item.videoUrl}" target="_blank" class="text-law-orange font-bold hover:underline flex items-center gap-1">
-                    ▶ ชมวิดีโอ
-                </a>
-                ${item.downloadUrl ? `<a href="${item.downloadUrl}" target="_blank" class="text-blue-600 font-bold hover:underline flex items-center gap-1">
-                    📂 โหลดเอกสาร
-                </a>` : ''}
-            </div>
-        </div>
-    </div>
-`).join('');
+                <div class="bg-white rounded-xl shadow-md overflow-hidden border-b-4 border-law-orange hover:shadow-xl transition-all flex flex-col">
+                    <img src="${item.thumbnail}" class="w-full h-40 object-cover">
+                    <div class="p-5 flex-1 flex flex-col">
+                        <h3 class="font-bold text-lg mb-2 leading-tight h-14 overflow-hidden">${item.title}</h3>
+                        <p class="text-gray-600 text-sm mb-4 line-clamp-3 flex-1">${item.summary || 'สรุปเนื้อหาจากวิดีโอ...'}</p>
+                        <div class="flex flex-col gap-2 pt-4 border-t">
+                            <a href="${item.videoUrl}" target="_blank" class="text-law-orange font-bold hover:underline flex items-center gap-2">
+                                📺 ชมวิดีโอ
+                            </a>
+                            ${item.downloadUrl ? `
+                                <a href="${item.downloadUrl}" target="_blank" class="inline-flex items-center justify-center bg-law-orange text-white px-4 py-2 rounded-lg text-sm font-bold hover:bg-red-700 transition-colors shadow-sm gap-2">
+                                    📁 ดาวน์โหลดเอกสาร
+                                </a>
+                            ` : `
+                                <span class="inline-flex items-center justify-center bg-gray-100 text-gray-400 px-4 py-2 rounded-lg text-sm font-bold cursor-not-allowed gap-2">
+                                    📂 ไม่มีไฟล์แนบ
+                                </span>
+                            `}
+                        </div>
+                    </div>
+                </div>
+            `).join('');
         }
 
         function filterContent() {
