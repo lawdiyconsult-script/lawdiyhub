@@ -8,7 +8,7 @@ CHANNEL_ID = os.getenv("CHANNEL_ID")
 
 def main():
     # 1. ดึงข้อมูลวิดีโอจาก YouTube (ดึง Snippet พื้นฐาน)
-    url = f"https://www.googleapis.com/youtube/v3/search?key={YT_KEY}&channelId={CHANNEL_ID}&part=snippet,id&order=date&maxResults=5&type=video"
+    url = f"https://www.googleapis.com/youtube/v3/search?key={YT_KEY}&channelId={CHANNEL_ID}&part=snippet,id&order=date&maxResults=5&type=video&videoDuration=medium"
     print(f"Fetching from YouTube Channel: {CHANNEL_ID}")
     
     response = requests.get(url).json()
