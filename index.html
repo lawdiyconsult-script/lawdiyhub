@@ -76,9 +76,11 @@
                 <a href="${item.videoUrl}" target="_blank" class="text-law-orange font-bold hover:underline flex items-center gap-1">
                     ▶ ชมวิดีโอ
                 </a>
-                ${item.downloadUrl ? `<a href="${item.downloadUrl}" target="_blank" class="text-blue-600 font-bold hover:underline flex items-center gap-1">
-                    📂 ดาวน์โหลดเอกสาร
-                </a>` : ''}
+                // ส่วนหนึ่งในฟังก์ชัน renderCards
+${item.downloadUrl 
+    ? `<a href="${item.downloadUrl}" target="_blank" class="text-blue-600 font-bold hover:underline flex items-center gap-1 mt-2">📂 ดาวน์โหลดเอกสาร</a>`
+    : '' 
+}
             </div>
         </div>
     </div>
