@@ -41,9 +41,8 @@ def main():
 
     print(f"ดึงวิดีโอจาก YouTube สำเร็จ {len(all_yt_items)} คลิป")
 
-    # 3. ประมวลผลและจับคู่ข้อมูล
+    # 3. ประมวลผลและจับคู่ข้อมูล (ปรับปรุงใหม่ให้ใจกว้างขึ้น)
     all_data = []
-    # ... (โค้ดส่วนบนคงเดิม) ...
     for item in all_yt_items:
         v_id = item['id']['videoId']
         title = item['snippet']['title']
@@ -51,36 +50,30 @@ def main():
         thumb = item['snippet']['thumbnails']['high']['url']
         
         download_link = ""
-        # ปรับปรุง Logic การจับคู่ให้ดีขึ้น
+        title_clean = title.lower().replace(" ", "") # ลบช่องว่างออกเพื่อให้เทียบง่ายขึ้น
+
         for folder in drive_folders:
-            folder_name = folder['name'].lower()
-            # ตัดคำที่ไม่จำเป็นออกเพื่อให้เหลือแต่ Keyword หลัก
-            keyword = folder_name.replace("เอกสาร", "").replace("คดี", "").replace("เรื่อง", "").replace("โฟลเดอร์", "").strip()
+            folder_full_name = folder['name'].lower()
+            # ตัดคำขยะออกให้เหลือแต่ Keyword หลักจริงๆ
+            keyword = folder_full_name.replace("เอกสาร", "").replace("คดี", "").replace("เรื่อง", "").replace("-", "").strip()
             
-            # ถ้า Keyword หลักอยู่ในชื่อคลิป หรือ ชื่อคลิปอยู่ในชื่อโฟลเดอร์ (กันพลาดทั้งสองทาง)
-            if keyword and (keyword in title.lower() or title.lower() in folder_name):
+            # --- Logic ใหม่: ตรวจสอบแบบไขว้ (Cross-check) ---
+            # 1. ถ้าคำสำคัญอยู่ในชื่อคลิป
+            # 2. หรือถ้าชื่อคลิป (บางส่วน) อยู่ในชื่อโฟลเดอร์
+            if len(keyword) > 1 and (keyword in title_clean or title_clean in folder_full_name.replace(" ", "")):
                 download_link = folder['webViewLink']
                 break
         
-        # กรณีพิเศษ: ถ้ายังหาไม่เจอ ให้ลองหาจากคำสำคัญยอดฮิต
+        # --- Logic เสริม: ดักคำยอดฮิต (Manual Fallback) ---
         if not download_link:
-            keywords_map = {
-                "มรดก": "จัดการมรดก",
-                "ทนาย": "เลือกทนายความ",
-                "ฟ้อง": "ฟ้องออนไลน์",
-                "สัญญา": "จ้างทำของ"
-            }
-            for key, folder_snippet in keywords_map.items():
-                if key in title and any(folder_snippet in f['name'] for f in drive_folders):
-                    # หาลิงก์จากโฟลเดอร์ที่มีคำนั้น
-                    for f in drive_folders:
-                        if folder_snippet in f['name']:
-                            download_link = f['webViewLink']
-                            break
+            if "มรดก" in title: 
+                # หาโฟลเดอร์ที่มีคำว่ามรดก
+                for f in drive_folders:
+                    if "มรดก" in f['name']: download_link = f['webViewLink']; break
 
         all_data.append({
             "title": title,
-            "summary": desc[:120] + "...", # ใช้คำอธิบายย่อเพื่อให้โหลดหน้าเว็บได้รวดเร็ว
+            "summary": desc[:120] + "...", 
             "videoUrl": f"https://www.youtube.com/watch?v={v_id}",
             "thumbnail": thumb,
             "downloadUrl": download_link
