@@ -43,23 +43,40 @@ def main():
 
     # 3. ประมวลผลและจับคู่ข้อมูล
     all_data = []
+    # ... (โค้ดส่วนบนคงเดิม) ...
     for item in all_yt_items:
         v_id = item['id']['videoId']
         title = item['snippet']['title']
         desc = item['snippet']['description']
         thumb = item['snippet']['thumbnails']['high']['url']
         
-        # Logic การจับคู่: ถ้าคำสำคัญในชื่อโฟลเดอร์อยู่ในชื่อคลิป
         download_link = ""
+        # ปรับปรุง Logic การจับคู่ให้ดีขึ้น
         for folder in drive_folders:
-            # ทำความสะอาดชื่อโฟลเดอร์เพื่อใช้เป็น Keyword (เช่น "จัดการมรดก" -> "มรดก")
             folder_name = folder['name'].lower()
-            # ตัดคำว่า 'เอกสาร' หรือ 'คดี' ออกเพื่อให้จับคู่แม่นขึ้น
-            keyword = folder_name.replace("เอกสาร", "").replace("คดี", "").strip()
+            # ตัดคำที่ไม่จำเป็นออกเพื่อให้เหลือแต่ Keyword หลัก
+            keyword = folder_name.replace("เอกสาร", "").replace("คดี", "").replace("เรื่อง", "").replace("โฟลเดอร์", "").strip()
             
-            if keyword and keyword in title.lower():
+            # ถ้า Keyword หลักอยู่ในชื่อคลิป หรือ ชื่อคลิปอยู่ในชื่อโฟลเดอร์ (กันพลาดทั้งสองทาง)
+            if keyword and (keyword in title.lower() or title.lower() in folder_name):
                 download_link = folder['webViewLink']
                 break
+        
+        # กรณีพิเศษ: ถ้ายังหาไม่เจอ ให้ลองหาจากคำสำคัญยอดฮิต
+        if not download_link:
+            keywords_map = {
+                "มรดก": "จัดการมรดก",
+                "ทนาย": "เลือกทนายความ",
+                "ฟ้อง": "ฟ้องออนไลน์",
+                "สัญญา": "จ้างทำของ"
+            }
+            for key, folder_snippet in keywords_map.items():
+                if key in title and any(folder_snippet in f['name'] for f in drive_folders):
+                    # หาลิงก์จากโฟลเดอร์ที่มีคำนั้น
+                    for f in drive_folders:
+                        if folder_snippet in f['name']:
+                            download_link = f['webViewLink']
+                            break
 
         all_data.append({
             "title": title,
