@@ -38,7 +38,7 @@
             </div>
         </div>
 
-        <div id="content-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+        <div id="content-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
             <div class="col-span-full text-center py-20 text-gray-400 animate-pulse">กำลังดึงข้อมูลล่าสุด...</div>
         </div>
     </main>
@@ -65,22 +65,20 @@
                 return;
             }
             grid.innerHTML = data.map(item => `
-    <div class="bg-white rounded-xl shadow-sm overflow-hidden border-b-4 border-law-orange hover:shadow-md transition-all text-sm group">
+    <div class="bg-white rounded-xl shadow-sm overflow-hidden border-b-4 border-law-orange hover:shadow-lg transition-all text-sm group">
         <div class="relative overflow-hidden">
-            <img src="${item.thumbnail}" class="w-full h-36 object-cover group-hover:scale-105 transition-transform duration-300">
-            ${item.downloadUrl ? '<span class="absolute top-2 right-2 bg-green-500 text-white px-2 py-1 rounded text-xs shadow-lg">มีไฟล์แนบ 📁</span>' : ''}
+            <img src="${item.thumbnail}" class="w-full h-40 object-cover group-hover:scale-105 transition-transform duration-300">
+            ${item.downloadUrl ? '<span class="absolute top-2 right-2 bg-green-600 text-white px-2 py-1 rounded-md text-[10px] font-bold shadow-md">มีไฟล์แนบ 📁</span>' : ''}
         </div>
         <div class="p-4">
-            <h3 class="font-bold leading-snug h-12 overflow-hidden mb-3 text-gray-800">${item.title}</h3>
+            <h3 class="font-bold leading-snug h-10 overflow-hidden mb-3 text-gray-800 line-clamp-2">${item.title}</h3>
             <div class="flex flex-col gap-2">
                 <a href="${item.videoUrl}" target="_blank" class="text-law-orange font-bold hover:underline flex items-center gap-1">
                     ▶ ชมวิดีโอ
                 </a>
-                // ส่วนหนึ่งในฟังก์ชัน renderCards
-${item.downloadUrl 
-    ? `<a href="${item.downloadUrl}" target="_blank" class="text-blue-600 font-bold hover:underline flex items-center gap-1 mt-2">📂 ดาวน์โหลดเอกสาร</a>`
-    : '' 
-}
+                ${item.downloadUrl ? `<a href="${item.downloadUrl}" target="_blank" class="text-blue-600 font-bold hover:underline flex items-center gap-1">
+                    📂 โหลดเอกสาร
+                </a>` : ''}
             </div>
         </div>
     </div>
