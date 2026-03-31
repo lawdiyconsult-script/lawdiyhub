@@ -86,13 +86,24 @@
             }
 
             if (type === 'file') {
-                grid.className = "grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4";
-                grid.innerHTML = items.map(f => `
-                    <a href="${f.webViewLink}" target="_blank" class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:border-orange-500 hover:shadow-md transition-all text-center group">
-                        <div class="text-4xl mb-3 group-hover:scale-110 transition-transform duration-300">📂</div>
-                        <div class="font-bold text-gray-800 text-sm line-clamp-2 uppercase">${f.name}</div>
-                    </a>
-                `).join('');
+    grid.className = "grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4";
+    grid.innerHTML = items.map(f => {
+        // เช็คว่าเป็น Folder หรือ File
+        const isFolder = f.mimeType === 'application/vnd.google-apps.folder';
+        const icon = isFolder ? '📂' : '📝'; // ถ้าไม่ใช่โฟลเดอร์ ให้แสดงเป็นไอคอนเอกสาร
+        const label = isFolder ? 'เปิดโฟลเดอร์' : 'ดาวน์โหลดไฟล์';
+
+        return `
+            <a href="${f.webViewLink}" target="_blank" class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:border-orange-500 hover:shadow-md transition-all text-center group flex flex-col justify-between">
+                <div>
+                    <div class="text-4xl mb-3 group-hover:scale-110 transition-transform duration-300">${icon}</div>
+                    <div class="font-bold text-gray-800 text-sm line-clamp-3 uppercase">${f.name}</div>
+                </div>
+                <div class="text-[10px] text-orange-600 font-bold mt-3">${label}</div>
+            </a>
+        `;
+    }).join('');
+}
             } else {
                 grid.className = "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6";
                 grid.innerHTML = items.map(v => `
