@@ -3,170 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LawDIYHub - ศูนย์รวมความรู้กฎหมายฟรี ปรึกษาปัญหากฎหมาย Line : @536ohsgp</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>LawDIYHub - รวมความรู้กฎหมายฟรี</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: { 'law-orange': '#DE3D12' },
-                    fontFamily: { 'serif': ['Playfair Display', 'serif'], 'thai': ['Sarabun', 'sans-serif'] }
-                }
-            }
-        }
-    </script>
+    <style>
+        .tab-btn.active { background-color: #DE3D12; color: white; border-color: #DE3D12; shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
+        .line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    </style>
 </head>
-<body class="bg-gray-50 font-thai text-gray-900">
-    <nav class="bg-law-orange text-white p-4 shadow-lg sticky top-0 z-50">
-        <div class="container mx-auto flex items-center justify-between">
-            <div class="flex items-center gap-3">
-                <span class="text-2xl">⚖</span>
-                <h1 class="text-xl font-bold font-serif">LawDIYHub</h1>
-            </div>
+<body class="bg-gray-50 font-sans">
+    <nav class="bg-slate-900 text-white p-4 shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold flex items-center gap-2">⚖️ LawDIYHub</h1>
         </div>
     </nav>
 
-    <main class="container mx-auto p-6">
-        <div class="max-w-xl mx-auto mb-10 text-center">
-            <h2 class="text-3xl font-serif font-bold text-gray-800 mb-4">ค้นหาความรู้กฎหมาย</h2>
+    <main class="container mx-auto my-8 p-4">
+        <div class="max-w-2xl mx-auto mb-10">
+            <h2 class="text-3xl font-bold text-center mb-6 text-slate-800">ค้นหาความรู้กฎหมาย</h2>
             <div class="relative">
-                <input type="text" id="search-input" onkeyup="filterContent()" 
-                    placeholder="พิมพ์เรื่องที่สงสัย เช่น มรดก, สัญญา..." 
-                    class="w-full px-5 py-3 pl-12 rounded-full border border-gray-200 shadow-sm focus:ring-2 focus:ring-law-orange outline-none">
-                <span class="absolute left-4 top-3.5 text-gray-400">🔍</span>
+                <input type="text" id="search-input" onkeyup="filterContent()" placeholder="พิมพ์เรื่องที่สงสัย เช่น มรดก, สัญญา..." 
+                       class="w-full p-4 pl-12 rounded-full border-2 border-gray-200 focus:border-orange-500 outline-none shadow-sm transition-all">
+                <span class="absolute left-5 top-4">🔍</span>
             </div>
         </div>
 
-        <div class="flex justify-center flex-wrap gap-2 mb-8 text-sm md:text-base">
-    <button onclick="switchTab('long')" id="btn-long" class="tab-btn active px-5 py-2 rounded-full font-bold transition-all shadow-md">📺 วิดีโอความรู้</button>
-    <button onclick="switchTab('short')" id="btn-short" class="tab-btn px-5 py-2 rounded-full font-bold transition-all bg-white border border-gray-200">⚡ กฎหมายสั้น (Shorts)</button>
-    <button onclick="switchTab('file')" id="btn-file" class="tab-btn px-5 py-2 rounded-full font-bold transition-all bg-white border border-gray-200">📂 แบบฟอร์ม/เอกสาร</button>
-</div>
-
-<style>
-    .tab-btn.active { background-color: #DE3D12; color: white; border-color: #DE3D12; }
-</style>
-        
-        <div id="content-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
-            <div class="col-span-full text-center py-20 text-gray-400 animate-pulse">กำลังดึงข้อมูลล่าสุด...</div>
+        <div class="flex justify-center flex-wrap gap-3 mb-10">
+            <button onclick="switchTab('long')" id="btn-long" class="tab-btn active px-6 py-2.5 rounded-full font-bold border transition-all">📺 วิดีโอความรู้</button>
+            <button onclick="switchTab('short')" id="btn-short" class="tab-btn px-6 py-2.5 rounded-full font-bold border bg-white text-gray-600 transition-all">⚡ กฎหมายสั้น (Shorts)</button>
+            <button onclick="switchTab('file')" id="btn-file" class="tab-btn px-6 py-2.5 rounded-full font-bold border bg-white text-gray-600 transition-all">📂 แบบฟอร์ม/เอกสาร</button>
         </div>
+
+        <section id="content-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+            <div class="col-span-full text-center py-20 text-gray-400 animate-pulse">กำลังดึงข้อมูลล่าสุด...</div>
+        </section>
     </main>
 
     <script>
-        let allContent = [];
+        let currentTab = 'long';
+        let rawData = { long_videos: [], shorts: [], folders: [] };
 
         async function loadContent() {
             try {
-                // เติม Date.now() เพื่อป้องกัน Browser จำค่าเก่า (Cache)
-                const res = await fetch('data.json?v=' + Date.now());
-                if (!res.ok) throw new Error('Network response was not ok');
-                
-                rawData = await res.json();
-                console.log("Data loaded:", rawData); // เช็คใน Inspect (F12) ว่าข้อมูลมาไหม
-                
-                // ตรวจสอบว่ามีข้อมูลข้างในไหมก่อนเริ่มรัน
-                if (rawData.long_videos || rawData.shorts || rawData.folders) {
-                    switchTab('long'); // เริ่มต้นหน้าแรก
-                } else {
-                    document.getElementById('content-grid').innerHTML = "ไม่พบโครงสร้างข้อมูลที่ถูกต้อง";
-                }
+                const response = await fetch('./data.json?v=' + Date.now());
+                rawData = await response.json();
+                switchTab('long');
             } catch (error) {
-                console.error("Load Error:", error);
-                document.getElementById('content-grid').innerHTML = "เกิดข้อผิดพลาด: " + error.message;
+                console.error("Error loading data:", error);
+                document.getElementById('content-grid').innerHTML = `<div class="col-span-full text-center text-red-500">ไม่สามารถโหลดข้อมูลได้ กรุณาลองใหม่อีกครั้ง</div>`;
             }
         }
 
-        function renderCards(data) {
+        function switchTab(tab) {
+            currentTab = tab;
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.remove('active', 'bg-orange-600', 'text-white');
+                btn.classList.add('bg-white', 'text-gray-600');
+            });
+            const activeBtn = document.getElementById('btn-' + tab);
+            activeBtn.classList.add('active');
+            filterContent();
+        }
+
+        function filterContent() {
+            const query = document.getElementById('search-input').value.toLowerCase();
+            let dataToFilter = [];
+            
+            if (currentTab === 'long') dataToFilter = rawData.long_videos || [];
+            else if (currentTab === 'short') dataToFilter = rawData.shorts || [];
+            else dataToFilter = rawData.folders || [];
+
+            const filtered = dataToFilter.filter(item => 
+                (item.title || item.name || "").toLowerCase().includes(query)
+            );
+            renderGallery(filtered, currentTab);
+        }
+
+        function renderGallery(items, type) {
             const grid = document.getElementById('content-grid');
-            if (!data || data.length === 0) {
-                grid.innerHTML = '<p class="col-span-full text-center">ไม่พบรายการ</p>';
+            if (items.length === 0) {
+                grid.innerHTML = `<div class="col-span-full text-center py-20 text-gray-400">ไม่พบข้อมูลที่ค้นหา</div>`;
                 return;
             }
-            grid.innerHTML = data.map(item => `
-                <div class="bg-white rounded-xl shadow-md overflow-hidden border-b-4 border-law-orange hover:shadow-xl transition-all flex flex-col">
-                    <img src="${item.thumbnail}" class="w-full h-40 object-cover">
-                    <div class="p-5 flex-1 flex flex-col">
-                        <h3 class="font-bold text-lg mb-2 leading-tight h-14 overflow-hidden">${item.title}</h3>
-                        <p class="text-gray-600 text-sm mb-4 line-clamp-3 flex-1">${item.summary || 'สรุปเนื้อหาจากวิดีโอ...'}</p>
-                        <div class="flex flex-col gap-2 pt-4 border-t">
-                            <a href="${item.videoUrl}" target="_blank" class="text-law-orange font-bold hover:underline flex items-center gap-2">
-                                📺 ชมวิดีโอ
+
+            if (type === 'file') {
+                grid.className = "grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4";
+                grid.innerHTML = items.map(f => `
+                    <a href="${f.webViewLink}" target="_blank" class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:border-orange-500 hover:shadow-md transition-all text-center group">
+                        <div class="text-4xl mb-3 group-hover:scale-110 transition-transform duration-300">📂</div>
+                        <div class="font-bold text-gray-800 text-sm line-clamp-2 uppercase">${f.name}</div>
+                    </a>
+                `).join('');
+            } else {
+                grid.className = "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6";
+                grid.innerHTML = items.map(v => `
+                    <div class="bg-white rounded-2xl shadow-sm overflow-hidden border border-gray-100 hover:shadow-xl transition-all flex flex-col group">
+                        <div class="relative overflow-hidden">
+                            <img src="${v.thumbnail}" class="w-full ${type==='short'?'h-72':'h-36'} object-cover group-hover:scale-105 transition-transform duration-500">
+                        </div>
+                        <div class="p-4 flex-1 flex flex-col">
+                            <h3 class="font-bold text-sm mb-4 line-clamp-2 h-10 text-slate-800 leading-snug">${v.title}</h3>
+                            <a href="${v.videoUrl}" target="_blank" class="w-full py-2 bg-orange-50 text-orange-600 rounded-xl text-center text-xs font-bold hover:bg-orange-600 hover:text-white transition-all">
+                                ▶ ชมคลิป${type==='short'?'สั้น':''}
                             </a>
-                            ${item.downloadUrl ? `
-                                <a href="${item.downloadUrl}" target="_blank" class="inline-flex items-center justify-center bg-law-orange text-white px-4 py-2 rounded-lg text-sm font-bold hover:bg-red-700 transition-colors shadow-sm gap-2">
-                                    📁 ดาวน์โหลดเอกสาร
-                                </a>
-                            ` : `
-                                <span class="inline-flex items-center justify-center bg-gray-100 text-gray-400 px-4 py-2 rounded-lg text-sm font-bold cursor-not-allowed gap-2">
-                                    📂 ไม่มีไฟล์แนบ
-                                </span>
-                            `}
                         </div>
                     </div>
-                </div>
-            `).join('');
+                `).join('');
+            }
         }
 
-let currentTab = 'long';
-let rawData = {}; // จะเก็บข้อมูลจาก data.json
-
-async function loadContent() {
-    const res = await fetch('data.json?v=' + Date.now());
-    rawData = await res.json();
-    switchTab('long'); // เริ่มต้นที่หน้าวิดีโอยาว
-}
-
-function switchTab(tab) {
-    currentTab = tab;
-    // อัปเดตสีปุ่ม
-    document.querySelectorAll('.tab-btn').forEach(btn => {
-        btn.classList.remove('active', 'bg-law-orange', 'text-white');
-        btn.classList.add('bg-white', 'text-gray-600');
-    });
-    const activeBtn = document.getElementById('btn-' + tab);
-    activeBtn.classList.add('active', 'bg-law-orange', 'text-white');
-    
-    filterContent(); // แสดงผลตามคำค้นหาที่มีอยู่
-}
-
-function renderGallery(items, type) {
-    const grid = document.getElementById('content-grid');
-    if (type === 'file') {
-        grid.className = "grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4";
-        grid.innerHTML = items.map(f => `
-            <a href="${f.webViewLink}" target="_blank" class="bg-white p-6 rounded-xl shadow-sm border-2 border-transparent hover:border-law-orange transition-all text-center group">
-                <div class="text-4xl mb-2 group-hover:scale-110 transition-transform">📂</div>
-                <div class="font-bold text-gray-800 text-xs sm:text-sm line-clamp-2 uppercase">${f.name}</div>
-            </a>
-        `).join('');
-    } else {
-        grid.className = "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4";
-        grid.innerHTML = items.map(v => `
-            <div class="bg-white rounded-xl shadow-sm overflow-hidden border-b-4 border-law-orange flex flex-col">
-                <img src="${v.thumbnail}" class="w-full ${type==='short'?'h-60':'h-32'} object-cover">
-                <div class="p-3 flex-1 flex flex-col">
-                    <h3 class="font-bold text-xs sm:text-sm mb-2 line-clamp-2 h-10">${v.title}</h3>
-                    <a href="${v.videoUrl}" target="_blank" class="text-law-orange font-bold text-xs hover:underline mt-auto">▶ ชมคลิป</a>
-                </div>
-            </div>
-        `).join('');
-    }
-}
-
-function filterContent() {
-    const query = document.getElementById('search-input').value.toLowerCase();
-    let dataToFilter = [];
-    
-    if (currentTab === 'long') dataToFilter = rawData.long_videos;
-    else if (currentTab === 'short') dataToFilter = rawData.shorts;
-    else dataToFilter = rawData.folders;
-
-    const filtered = dataToFilter.filter(item => 
-        (item.title || item.name).toLowerCase().includes(query)
-    );
-    renderGallery(filtered, currentTab);
-}
+        window.onload = loadContent;
     </script>
 </body>
 </html>
