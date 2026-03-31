@@ -57,14 +57,23 @@
         let allContent = [];
 
         async function loadContent() {
-            const grid = document.getElementById('content-grid');
             try {
-                const response = await fetch('data.json?v=' + Date.now());
-                allContent = await response.json();
-                renderCards(allContent);
+                // เติม Date.now() เพื่อป้องกัน Browser จำค่าเก่า (Cache)
+                const res = await fetch('data.json?v=' + Date.now());
+                if (!res.ok) throw new Error('Network response was not ok');
+                
+                rawData = await res.json();
+                console.log("Data loaded:", rawData); // เช็คใน Inspect (F12) ว่าข้อมูลมาไหม
+                
+                // ตรวจสอบว่ามีข้อมูลข้างในไหมก่อนเริ่มรัน
+                if (rawData.long_videos || rawData.shorts || rawData.folders) {
+                    switchTab('long'); // เริ่มต้นหน้าแรก
+                } else {
+                    document.getElementById('content-grid').innerHTML = "ไม่พบโครงสร้างข้อมูลที่ถูกต้อง";
+                }
             } catch (error) {
-                console.error("Error:", error);
-                grid.innerHTML = '<p class="col-span-full text-center text-red-500">ไม่สามารถโหลดข้อมูลได้</p>';
+                console.error("Load Error:", error);
+                document.getElementById('content-grid').innerHTML = "เกิดข้อผิดพลาด: " + error.message;
             }
         }
 
