@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LawDIYHub - ศูนย์รวมความรู้กฎหมาย</title>
+    <title>LawDIYHub - ศูนย์รวมความรู้กฎหมายฟรี ปรึกษาปัญหากฎหมาย Line : @536ohsgp </title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -38,6 +38,16 @@
             </div>
         </div>
 
+        <div class="flex justify-center flex-wrap gap-2 mb-8 text-sm md:text-base">
+    <button onclick="switchTab('long')" id="btn-long" class="tab-btn active px-5 py-2 rounded-full font-bold transition-all shadow-md">📺 วิดีโอความรู้</button>
+    <button onclick="switchTab('short')" id="btn-short" class="tab-btn px-5 py-2 rounded-full font-bold transition-all bg-white border border-gray-200">⚡ กฎหมายสั้น (Shorts)</button>
+    <button onclick="switchTab('file')" id="btn-file" class="tab-btn px-5 py-2 rounded-full font-bold transition-all bg-white border border-gray-200">📂 แบบฟอร์ม/เอกสาร</button>
+</div>
+
+<style>
+    .tab-btn.active { background-color: #DE3D12; color: white; border-color: #DE3D12; }
+</style>
+        
         <div id="content-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
             <div class="col-span-full text-center py-20 text-gray-400 animate-pulse">กำลังดึงข้อมูลล่าสุด...</div>
         </div>
@@ -89,16 +99,65 @@
             `).join('');
         }
 
-        function filterContent() {
-            const query = document.getElementById('search-input').value.toLowerCase();
-            const filtered = allContent.filter(item => 
-                item.title.toLowerCase().includes(query) || 
-                (item.summary && item.summary.toLowerCase().includes(query))
-            );
-            renderCards(filtered);
-        }
+let currentTab = 'long';
+let rawData = {}; // จะเก็บข้อมูลจาก data.json
 
-        window.onload = loadContent;
+async function loadContent() {
+    const res = await fetch('data.json?v=' + Date.now());
+    rawData = await res.json();
+    switchTab('long'); // เริ่มต้นที่หน้าวิดีโอยาว
+}
+
+function switchTab(tab) {
+    currentTab = tab;
+    // อัปเดตสีปุ่ม
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.classList.remove('active', 'bg-law-orange', 'text-white');
+        btn.classList.add('bg-white', 'text-gray-600');
+    });
+    const activeBtn = document.getElementById('btn-' + tab);
+    activeBtn.classList.add('active', 'bg-law-orange', 'text-white');
+    
+    filterContent(); // แสดงผลตามคำค้นหาที่มีอยู่
+}
+
+function renderGallery(items, type) {
+    const grid = document.getElementById('content-grid');
+    if (type === 'file') {
+        grid.className = "grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4";
+        grid.innerHTML = items.map(f => `
+            <a href="${f.webViewLink}" target="_blank" class="bg-white p-6 rounded-xl shadow-sm border-2 border-transparent hover:border-law-orange transition-all text-center group">
+                <div class="text-4xl mb-2 group-hover:scale-110 transition-transform">📂</div>
+                <div class="font-bold text-gray-800 text-xs sm:text-sm line-clamp-2 uppercase">${f.name}</div>
+            </a>
+        `).join('');
+    } else {
+        grid.className = "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4";
+        grid.innerHTML = items.map(v => `
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden border-b-4 border-law-orange flex flex-col">
+                <img src="${v.thumbnail}" class="w-full ${type==='short'?'h-60':'h-32'} object-cover">
+                <div class="p-3 flex-1 flex flex-col">
+                    <h3 class="font-bold text-xs sm:text-sm mb-2 line-clamp-2 h-10">${v.title}</h3>
+                    <a href="${v.videoUrl}" target="_blank" class="text-law-orange font-bold text-xs hover:underline mt-auto">▶ ชมคลิป</a>
+                </div>
+            </div>
+        `).join('');
+    }
+}
+
+function filterContent() {
+    const query = document.getElementById('search-input').value.toLowerCase();
+    let dataToFilter = [];
+    
+    if (currentTab === 'long') dataToFilter = rawData.long_videos;
+    else if (currentTab === 'short') dataToFilter = rawData.shorts;
+    else dataToFilter = rawData.folders;
+
+    const filtered = dataToFilter.filter(item => 
+        (item.title || item.name).toLowerCase().includes(query)
+    );
+    renderGallery(filtered, currentTab);
+}
     </script>
 </body>
 </html>
