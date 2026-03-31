@@ -23,22 +23,18 @@ def main():
     # 2. ดึง Shorts (Short < 4 นาที ใน API มักรวมอยู่ในกลุ่ม short)
     short_videos = get_yt_data("video", "short")
     # 3. ดึง Drive Folders
-    drive_url = f"https://www.googleapis.com/drive/v3/files?q='{DRIVE_FOLDER_ID}'+in+parents+and+mimeType='application/vnd.google-apps.folder'&fields=files(name,webViewLink)&key={YT_KEY}"
-    drive_folders = requests.get(drive_url).json().get('files', [])
+    drive_query = f"'{DRIVE_FOLDER_ID}' in parents and (mimeType = 'application/vnd.google-apps.folder' or mimeType = 'application/msword' or mimeType = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' or mimeType = 'application/pdf')"
+    
+    drive_url = f"https://www.googleapis.com/drive/v3/files?q={drive_query}&fields=files(name,webViewLink,mimeType)&key={YT_KEY}"
+    
+    res = requests.get(drive_url).json()
+    drive_items = res.get('files', [])
 
     # จัดโครงสร้าง JSON ใหม่
     output = {
-        "long_videos": [{
-            "title": i['snippet']['title'],
-            "videoUrl": f"https://www.youtube.com/watch?v={i['id']['videoId']}",
-            "thumbnail": i['snippet']['thumbnails']['high']['url']
-        } for i in long_videos],
-        "shorts": [{
-            "title": i['snippet']['title'],
-            "videoUrl": f"https://www.youtube.com/watch?v={i['id']['videoId']}",
-            "thumbnail": i['snippet']['thumbnails']['high']['url']
-        } for i in short_videos],
-        "folders": drive_folders
+        "long_videos": all_long_videos,
+        "shorts": all_shorts,
+        "folders": drive_items # ตอนนี้ในนี้จะมีทั้ง Folder และ File รายชิ้นครับ
     }
 
     with open('data.json', 'w', encoding='utf-8') as f:
