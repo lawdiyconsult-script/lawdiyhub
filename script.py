@@ -21,37 +21,39 @@ def get_yt_data(duration_filter):
         return []
 
 def main():
-    # 1. ดึงวิดีโอยาว
-    long_vids_raw = get_yt_data("medium")
-    # 2. ดึง Shorts
-    shorts_raw = get_yt_data("short")
+    # 1. ดึงวิดีโอยาว (เก็บใส่ตัวแปร long_vids)
+    long_vids = get_yt_data("medium")
+    # 2. ดึง Shorts (เก็บใส่ตัวแปร short_vids)
+    short_vids = get_yt_data("short")
     
     # 3. ดึง Drive (Folders + Word + PDF)
-    # เขียน query แบบระวังเครื่องหมายคำพูด
     q = f"'{DRIVE_FOLDER_ID}' in parents and (mimeType = 'application/vnd.google-apps.folder' or mimeType = 'application/msword' or mimeType = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' or mimeType = 'application/pdf')"
     drive_url = f"https://www.googleapis.com/drive/v3/files?q={q}&fields=files(name,webViewLink,mimeType)&key={YT_KEY}"
     
-    drive_res = requests.get(drive_url).json()
-    drive_items = drive_res.get('files', [])
+    try:
+        drive_res = requests.get(drive_url).json()
+        drive_items = drive_res.get('files', [])
+    except:
+        drive_items = []
 
-    # จัดโครงสร้าง JSON
+    # จัดโครงสร้าง JSON (ใช้ชื่อตัวแปรให้ตรงกับข้างบน)
     output = {
         "long_videos": [{
             "title": i['snippet']['title'],
             "videoUrl": f"https://www.youtube.com/watch?v={i['id']['videoId']}",
             "thumbnail": i['snippet']['thumbnails']['high']['url']
-        } for i in long_vids_raw],
+        } for i in long_vids], # แก้จาก all_long_videos เป็น long_vids
         "shorts": [{
             "title": i['snippet']['title'],
             "videoUrl": f"https://www.youtube.com/watch?v={i['id']['videoId']}",
             "thumbnail": i['snippet']['thumbnails']['high']['url']
-        } for i in shorts_raw],
+        } for i in short_vids], # แก้ให้ตรงกับที่ประกาศไว้
         "folders": drive_items
     }
 
     with open('data.json', 'w', encoding='utf-8') as f:
         json.dump(output, f, ensure_ascii=False, indent=4)
-    print("Update Successful!")
+    print("อัปเดตข้อมูลสำเร็จ!")
 
 if __name__ == "__main__":
     main()
