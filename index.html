@@ -44,77 +44,67 @@
 
         async function loadContent() {
             try {
+                // ดึงข้อมูลและใส่ Date.now() เพื่อป้องกันการจำค่าเก่า (Cache)
                 const response = await fetch('./data.json?v=' + Date.now());
                 rawData = await response.json();
+                
+                // เริ่มต้นแสดงผลที่หน้า วิดีโอความรู้
                 switchTab('long');
             } catch (error) {
                 console.error("Error loading data:", error);
-                document.getElementById('content-grid').innerHTML = `<div class="col-span-full text-center text-red-500">ไม่สามารถโหลดข้อมูลได้ กรุณาลองใหม่อีกครั้ง</div>`;
+                document.getElementById('content-grid').innerHTML = 
+                    `<div class="col-span-full text-center py-10 text-red-500">ไม่สามารถโหลดข้อมูลได้ กรุณาลองใหม่อีกครั้ง</div>`;
             }
         }
 
         function switchTab(tab) {
             currentTab = tab;
+            
+            // เปลี่ยนสีปุ่มเมนู (ถ้าคุณมี Class tab-btn ใน HTML)
             document.querySelectorAll('.tab-btn').forEach(btn => {
-                btn.classList.remove('active', 'bg-orange-600', 'text-white');
+                btn.classList.remove('bg-orange-600', 'text-white');
                 btn.classList.add('bg-white', 'text-gray-600');
             });
-            const activeBtn = document.getElementById('btn-' + tab);
-            activeBtn.classList.add('active');
-            filterContent();
-        }
-
-        function filterContent() {
-            const query = document.getElementById('search-input').value.toLowerCase();
-            let dataToFilter = [];
             
-            if (currentTab === 'long') dataToFilter = rawData.long_videos || [];
-            else if (currentTab === 'short') dataToFilter = rawData.shorts || [];
-            else dataToFilter = rawData.folders || [];
+            const activeBtn = document.getElementById('btn-' + tab);
+            if (activeBtn) {
+                activeBtn.classList.remove('bg-white', 'text-gray-600');
+                activeBtn.classList.add('bg-orange-600', 'text-white');
+            }
 
-            const filtered = dataToFilter.filter(item => 
-                (item.title || item.name || "").toLowerCase().includes(query)
-            );
-            renderGallery(filtered, currentTab);
+            renderGallery();
         }
 
-        function renderGallery(items, type) {
+        function renderGallery() {
             const grid = document.getElementById('content-grid');
+            let items = [];
+
+            // เลือกชุดข้อมูลตาม Tab ที่กด
+            if (currentTab === 'long') items = rawData.long_videos || [];
+            else if (currentTab === 'short') items = rawData.shorts || [];
+            else items = rawData.folders || [];
+
             if (items.length === 0) {
-                grid.innerHTML = `<div class="col-span-full text-center py-20 text-gray-400">ไม่พบข้อมูลที่ค้นหา</div>`;
+                grid.innerHTML = `<div class="col-span-full text-center py-10 text-gray-400">ยังไม่มีข้อมูลในส่วนนี้</div>`;
                 return;
             }
 
-            if (type === 'file') {
-    grid.className = "grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4";
-    grid.innerHTML = items.map(f => {
-        // เช็คว่าเป็น Folder หรือ File
-        const isFolder = f.mimeType === 'application/vnd.google-apps.folder';
-        const icon = isFolder ? '📂' : '📝'; // ถ้าไม่ใช่โฟลเดอร์ ให้แสดงเป็นไอคอนเอกสาร
-        const label = isFolder ? 'เปิดโฟลเดอร์' : 'ดาวน์โหลดไฟล์';
-
-        return `
-            <a href="${f.webViewLink}" target="_blank" class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:border-orange-500 hover:shadow-md transition-all text-center group flex flex-col justify-between">
-                <div>
-                    <div class="text-4xl mb-3 group-hover:scale-110 transition-transform duration-300">${icon}</div>
-                    <div class="font-bold text-gray-800 text-sm line-clamp-3 uppercase">${f.name}</div>
-                </div>
-                <div class="text-[10px] text-orange-600 font-bold mt-3">${label}</div>
-            </a>
-        `;
-    }).join('');
-}
+            // แสดงผลตามประเภท (วิดีโอ หรือ ไฟล์/โฟลเดอร์)
+            if (currentTab === 'file') {
+                grid.innerHTML = items.map(f => `
+                    <a href="${f.webViewLink}" target="_blank" class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:border-orange-500 hover:shadow-md transition-all text-center group">
+                        <div class="text-4xl mb-3 group-hover:scale-110 transition-transform">${f.mimeType.includes('folder') ? '📂' : '📝'}</div>
+                        <div class="font-bold text-gray-800 text-sm line-clamp-2 uppercase">${f.name}</div>
+                    </a>
+                `).join('');
             } else {
-                grid.className = "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6";
                 grid.innerHTML = items.map(v => `
-                    <div class="bg-white rounded-2xl shadow-sm overflow-hidden border border-gray-100 hover:shadow-xl transition-all flex flex-col group">
-                        <div class="relative overflow-hidden">
-                            <img src="${v.thumbnail}" class="w-full ${type==='short'?'h-72':'h-36'} object-cover group-hover:scale-105 transition-transform duration-500">
-                        </div>
+                    <div class="bg-white rounded-2xl shadow-sm overflow-hidden border border-gray-100 hover:shadow-xl transition-all flex flex-col">
+                        <img src="${v.thumbnail}" class="w-full ${currentTab==='short'?'h-72':'h-36'} object-cover">
                         <div class="p-4 flex-1 flex flex-col">
                             <h3 class="font-bold text-sm mb-4 line-clamp-2 h-10 text-slate-800 leading-snug">${v.title}</h3>
                             <a href="${v.videoUrl}" target="_blank" class="w-full py-2 bg-orange-50 text-orange-600 rounded-xl text-center text-xs font-bold hover:bg-orange-600 hover:text-white transition-all">
-                                ▶ ชมคลิป${type==='short'?'สั้น':''}
+                                ▶ ชมวิดีโอ
                             </a>
                         </div>
                     </div>
@@ -122,6 +112,7 @@
             }
         }
 
+        // เริ่มโหลดข้อมูลเมื่อเปิดหน้าเว็บ
         window.onload = loadContent;
     </script>
 </body>
