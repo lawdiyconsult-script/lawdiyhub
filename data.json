@@ -311,6 +311,11 @@
             "thumbnail": "https://i.ytimg.com/vi/42ez2OcPemA/hqdefault.jpg"
         },
         {
+            "title": "วิธีดูประกาศทรัพย์ขายทอดตลาดแบบปลอดจำนอง : EP.57",
+            "videoUrl": "https://www.youtube.com/watch?v=cADJ2zgEYak",
+            "thumbnail": "https://i.ytimg.com/vi/cADJ2zgEYak/hqdefault.jpg"
+        },
+        {
             "title": "ถูกฟ้องหมิ่นประมาททำยังไงดี : EP.56",
             "videoUrl": "https://www.youtube.com/watch?v=ARBGlDOuJ2g",
             "thumbnail": "https://i.ytimg.com/vi/ARBGlDOuJ2g/hqdefault.jpg"
@@ -501,11 +506,6 @@
             "thumbnail": "https://i.ytimg.com/vi/JmadHmcC_mI/hqdefault.jpg"
         },
         {
-            "title": "สาระสำคัญสัญญาประนีประนอมยอมความ | EP.05",
-            "videoUrl": "https://www.youtube.com/watch?v=JmadHmcC_mI",
-            "thumbnail": "https://i.ytimg.com/vi/JmadHmcC_mI/hqdefault.jpg"
-        },
-        {
             "title": "ข้อดีของการทำสัญญาประนีประนอมยอมความ | EP.04",
             "videoUrl": "https://www.youtube.com/watch?v=qPHD9aK3QqE",
             "thumbnail": "https://i.ytimg.com/vi/qPHD9aK3QqE/hqdefault.jpg"
@@ -528,6 +528,111 @@
     ],
     "shorts": [
         {
+            "title": "เป็นหนี้บัตร เจ้าหนี้จะมายึดที่ดิน ที่มีชื่อพ่อของลูกหนี้ได้ไหม #law",
+            "videoUrl": "https://www.youtube.com/watch?v=2fzfxoROFFM",
+            "thumbnail": "https://i.ytimg.com/vi/2fzfxoROFFM/hqdefault.jpg"
+        },
+        {
+            "title": "กู้เงิน มีสลิปการโอนเงิน ทำอะไรได้บ้างฟ้องได้หรือไม่ #law",
+            "videoUrl": "https://www.youtube.com/watch?v=WZqIKBclB3Q",
+            "thumbnail": "https://i.ytimg.com/vi/WZqIKBclB3Q/hqdefault.jpg"
+        },
+        {
+            "title": "ได้รับหมายศาลในคดีแพ่งทำอย่างไรดี ขอทนาย ขอพิจารณาคดีออนไลน์ ไม่เซ็นได้ไหม #law",
+            "videoUrl": "https://www.youtube.com/watch?v=Xh3iCLbsnOc",
+            "thumbnail": "https://i.ytimg.com/vi/Xh3iCLbsnOc/hqdefault.jpg"
+        },
+        {
+            "title": "น้ามีลูก แต่อยากยกมรดกให้หลาน  ทำได้ไหม #law พินัยกรรมทำเองได้",
+            "videoUrl": "https://www.youtube.com/watch?v=wmLKO3Bp0N8",
+            "thumbnail": "https://i.ytimg.com/vi/wmLKO3Bp0N8/hqdefault.jpg"
+        },
+        {
+            "title": "คดีเมาแล้วขับ ศาลจำคุก #law",
+            "videoUrl": "https://www.youtube.com/watch?v=9UnN0_cftDI",
+            "thumbnail": "https://i.ytimg.com/vi/9UnN0_cftDI/hqdefault.jpg"
+        },
+        {
+            "title": "เมาแล้ว ศาลสั่งคุมประพฤติและบำเพ็ญประโยชน์ ถ้าไม่ทำตาม คำสั่งศาล #law ผลเป็นอย่างไร",
+            "videoUrl": "https://www.youtube.com/watch?v=4PXs_QJvqtw",
+            "thumbnail": "https://i.ytimg.com/vi/4PXs_QJvqtw/hqdefault.jpg"
+        },
+        {
+            "title": "ไฟแนนซ์ ฟ้องส่วนต่าง เช่าซื้อ ศาลจะให้ชำระจริง เท่าไหร่ #law",
+            "videoUrl": "https://www.youtube.com/watch?v=3oga6XUPh9c",
+            "thumbnail": "https://i.ytimg.com/vi/3oga6XUPh9c/hqdefault.jpg"
+        },
+        {
+            "title": "ถูกจับข้อหาการพนัน ถ้าไม่มีเงินประกันจะติดคุกไหม #law",
+            "videoUrl": "https://www.youtube.com/watch?v=loeC9ig-Bzc",
+            "thumbnail": "https://i.ytimg.com/vi/loeC9ig-Bzc/hqdefault.jpg"
+        },
+        {
+            "title": "ค่าทนาย ฝ่ายแพ้ต้องจ่ายค่าทนายให้กับฝ่ายที่ชนะใช่ไหม #กฎหมายdiy",
+            "videoUrl": "https://www.youtube.com/watch?v=xoJJVtpMu38",
+            "thumbnail": "https://i.ytimg.com/vi/xoJJVtpMu38/hqdefault.jpg"
+        },
+        {
+            "title": "คดีเสพยา ศาลสั่งคุมประพฤติ แต่ไม่ไปรายงานตัวผลเป็นอย่างไร #กฎหมายdiy",
+            "videoUrl": "https://www.youtube.com/watch?v=rvYpt3zWyGA",
+            "thumbnail": "https://i.ytimg.com/vi/rvYpt3zWyGA/hqdefault.jpg"
+        },
+        {
+            "title": "คดีอาญาติดคุก แล้วต้องชดใช้เงิน ค่าเสียหาย หรือไม่ ขั้นตอนเป็นอย่างไร #กฎหมายdiy",
+            "videoUrl": "https://www.youtube.com/watch?v=eq183HBGo2k",
+            "thumbnail": "https://i.ytimg.com/vi/eq183HBGo2k/hqdefault.jpg"
+        },
+        {
+            "title": "ศาลฎีกา พิพากษาใช้เวลานานไหม #law",
+            "videoUrl": "https://www.youtube.com/watch?v=eBlOTxE6XWY",
+            "thumbnail": "https://i.ytimg.com/vi/eBlOTxE6XWY/hqdefault.jpg"
+        },
+        {
+            "title": "บัตรเครดิต สินเชื่อส่วนบุคคล ประเภทต่างๆ หยุดส่ง กี่เดือนจึงจะถูกฟ้อง #law",
+            "videoUrl": "https://www.youtube.com/watch?v=ZTM4FrwqGrk",
+            "thumbnail": "https://i.ytimg.com/vi/ZTM4FrwqGrk/hqdefault.jpg"
+        },
+        {
+            "title": "ถูกอายัดบัญชี ติดต่อเจ้าหน้าที่ให้รอ 72 ชั่วโมงแล้ว ยังไม่มีการปลด ธนาคารอื่นโดนไปด้วย  #กฎหมายdiy",
+            "videoUrl": "https://www.youtube.com/watch?v=HGA32K8E76o",
+            "thumbnail": "https://i.ytimg.com/vi/HGA32K8E76o/hqdefault.jpg"
+        },
+        {
+            "title": "การอายัดเงินเดือน จะถูกอายัดเงินเดือน ตั้งแต่เดือนแรกที่เราทำงานเลยหรือไม่ #law",
+            "videoUrl": "https://www.youtube.com/watch?v=vVTu0et1Dq0",
+            "thumbnail": "https://i.ytimg.com/vi/vVTu0et1Dq0/hqdefault.jpg"
+        },
+        {
+            "title": "หมายจับ ข้อ หา ลัก  จะ รวม ถึง ลักทรัพย์นายจ้างด้วยหรือไม่ #howto",
+            "videoUrl": "https://www.youtube.com/watch?v=Kya8RZw5ocY",
+            "thumbnail": "https://i.ytimg.com/vi/Kya8RZw5ocY/hqdefault.jpg"
+        },
+        {
+            "title": "ลูกหนี้ถูกเจ้าหนี้โพสต์ประจานในไลฟ์สด ทำให้เราถูกอับอาย ผิดอะไรบ้าง#",
+            "videoUrl": "https://www.youtube.com/watch?v=WfknwQweru0",
+            "thumbnail": "https://i.ytimg.com/vi/WfknwQweru0/hqdefault.jpg"
+        },
+        {
+            "title": "คดีอาญาประกันตัวและ ติด EM หากศาล ตัดสิน จำคุก จะนำ ระยะเวลา ที่ติด EM มาหักจากโทษจำคุกหรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=0nU8c7Pf0R8",
+            "thumbnail": "https://i.ytimg.com/vi/0nU8c7Pf0R8/hqdefault.jpg"
+        },
+        {
+            "title": "ถูกฟ้อง ข้อหาพรากผู้เยาว์ หากศาลพิพากษาแล้ว จะขอประกันตัวได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=Q0Jqyk3G49k",
+            "thumbnail": "https://i.ytimg.com/vi/Q0Jqyk3G49k/hqdefault.jpg"
+        },
+        {
+            "title": "มีคดีอาญาอยู่ระหว่างพิจารณา จะ เดินทาง ออกนอกประเทศได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=LJuDXSRjCaQ",
+            "thumbnail": "https://i.ytimg.com/vi/LJuDXSRjCaQ/hqdefault.jpg"
+        },
+        {
+            "title": "หากลูกหนี้ไม่ชำระหนี้ เจ้าหนี้สามารถอายัดบัญชีได้เลยหรือไม่ #law",
+            "videoUrl": "https://www.youtube.com/watch?v=diOwIQvLYqA",
+            "thumbnail": "https://i.ytimg.com/vi/diOwIQvLYqA/hqdefault.jpg"
+        },
+        {
             "title": "ข้อหาอะไรบ้างที่ไม่สามารถ ฟ้องออนไลน์ได้ ฟ้องออนไลน์ e-Filing (อีฟายลิ่ง)  หรือฟ้องออนไลน์ไม่ได้",
             "videoUrl": "https://www.youtube.com/watch?v=J9K_HZhhPI8",
             "thumbnail": "https://i.ytimg.com/vi/J9K_HZhhPI8/hqdefault.jpg"
@@ -548,9 +653,879 @@
             "thumbnail": "https://i.ytimg.com/vi/d0luay7w1so/hqdefault.jpg"
         },
         {
+            "title": "เช่าซื้อ รถจอดหน้าบ้าน ทีมยึดมายึดทำอย่างไรดี",
+            "videoUrl": "https://www.youtube.com/watch?v=jsz1G8RjoyQ",
+            "thumbnail": "https://i.ytimg.com/vi/jsz1G8RjoyQ/hqdefault.jpg"
+        },
+        {
+            "title": "ถูกยึดบ้าน ที่เช่าซื้อกับธนาคาร ทำอย่างไรดี ไม่มีทางออก เครียดไปหมด",
+            "videoUrl": "https://www.youtube.com/watch?v=Z_erIkUkzXk",
+            "thumbnail": "https://i.ytimg.com/vi/Z_erIkUkzXk/hqdefault.jpg"
+        },
+        {
+            "title": "ลูกหนี้ อยู่ต่างประเทศ เจ้าหนี้ยังสามารถฟ้อง คดีกู้ยืมได้อยู่หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=78Z5GaMF-R8",
+            "thumbnail": "https://i.ytimg.com/vi/78Z5GaMF-R8/hqdefault.jpg"
+        },
+        {
+            "title": "ฟ้องคดีแพ่ง ชนะคดีแล้ว แต่ลูกหนี้ ไม่มีไม่หนีไม่จ่าย ทำอย่างไรดี",
+            "videoUrl": "https://www.youtube.com/watch?v=_PrQv1gPk0Q",
+            "thumbnail": "https://i.ytimg.com/vi/_PrQv1gPk0Q/hqdefault.jpg"
+        },
+        {
+            "title": "แม่โดนฟ้องขับไล่ แต่ไม่สะดวกไปศาลมอบอำนาจให้ลูกไปศาลแทนได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=It6kGmnaNCU",
+            "thumbnail": "https://i.ytimg.com/vi/It6kGmnaNCU/hqdefault.jpg"
+        },
+        {
+            "title": "คดีรับของโจร ผู้เสียหายไม่ติดใจ ถ้าจำเลยถูกฟ้องต่อศาลแล้ว ผู้เสียหายต้องไปศาลขึ้นอีกหรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=46sbs5S6qgc",
+            "thumbnail": "https://i.ytimg.com/vi/46sbs5S6qgc/hqdefault.jpg"
+        },
+        {
+            "title": "เปิดบัญชีให้ลูก เจ้าหนี้ของแม่ อายัดบัญชีของแม่ ที่เปิดให้ลูกได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=_7G8cUR5RHE",
+            "thumbnail": "https://i.ytimg.com/vi/_7G8cUR5RHE/hqdefault.jpg"
+        },
+        {
+            "title": "ไปขึ้นศาล คดีบัตรเครดิต ทำสัญญา ยอม ต่อมาชำระหนี้ไม่ตรงตามวันที่กำหนด ผลเป็นอย่างไร",
+            "videoUrl": "https://www.youtube.com/watch?v=TqMKmFPsMJ8",
+            "thumbnail": "https://i.ytimg.com/vi/TqMKmFPsMJ8/hqdefault.jpg"
+        },
+        {
+            "title": "หมายศาลส่งมาที่บ้าน แต่ตัวเราไม่ได้อยู่บ้านเรามีความผิดหรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=jKu-yOaFxUs",
+            "thumbnail": "https://i.ytimg.com/vi/jKu-yOaFxUs/hqdefault.jpg"
+        },
+        {
+            "title": "ยืมเงินไป มีหลักฐานทวงแล้วไม่คืนสามารถแจ้งความได้ไหม",
+            "videoUrl": "https://www.youtube.com/watch?v=umelc_IKhYQ",
+            "thumbnail": "https://i.ytimg.com/vi/umelc_IKhYQ/hqdefault.jpg"
+        },
+        {
+            "title": "พินัยกรรมระบุกรมธรรม์ให้ผู้รับพินัยกรรม มีผลตามกฎหมายหรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=ardN1wAB_hI",
+            "thumbnail": "https://i.ytimg.com/vi/ardN1wAB_hI/hqdefault.jpg"
+        },
+        {
+            "title": "คดีเช่าซื้อ ผู้ค้ำประกัน ถูกยึดทรัพย์ขายทอดตลาดถึงขั้นตอนนี้แล้วจะทำอย่างไรได้บ้าง",
+            "videoUrl": "https://www.youtube.com/watch?v=BvOfaHh_FhE",
+            "thumbnail": "https://i.ytimg.com/vi/BvOfaHh_FhE/hqdefault.jpg"
+        },
+        {
+            "title": "เจ้าหนี้โพสต์ ทวงหนี้ลูกหนี้แจ้งความดำเนินคดี เรียกค่าเสียหาย ทำอย่างไรดี จะติดคุกไหม",
+            "videoUrl": "https://www.youtube.com/watch?v=l302hdoSl5E",
+            "thumbnail": "https://i.ytimg.com/vi/l302hdoSl5E/hqdefault.jpg"
+        },
+        {
+            "title": "คดีฉ้อโกง ศาลตัดสินจำคุก 2 ปี 6 เดือนเหลืออีก 1 คดีสามารถจำคุกนับไปพร้อมกัน 2 คดีได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=k2HvYcIOZro",
+            "thumbnail": "https://i.ytimg.com/vi/k2HvYcIOZro/hqdefault.jpg"
+        },
+        {
+            "title": "ได้รับหมายเรียกให้เป็นพยานจากพนักงานสอบสวนแต่เราไม่รู้เรื่องเกี่ยวกับคดีนี้เลย จะทำอย่างไรดี",
+            "videoUrl": "https://www.youtube.com/watch?v=Diq9uYU0jL4",
+            "thumbnail": "https://i.ytimg.com/vi/Diq9uYU0jL4/hqdefault.jpg"
+        },
+        {
+            "title": "วางเงินประกันในชั้นอุทธรณ์คดีแรก ต่อทำผิดคดีที่ 2 ถามว่าคดีแรกเงินประกันจะได้เงินคืนไหม",
+            "videoUrl": "https://www.youtube.com/watch?v=rrfVcmAhDk8",
+            "thumbnail": "https://i.ytimg.com/vi/rrfVcmAhDk8/hqdefault.jpg"
+        },
+        {
+            "title": "ถอนแจ้งความไปแล้ว ไม่เกิน 3 เดือน สามารถแจ้งความได้อีกหรือไม่ หมิ่นประมาท",
+            "videoUrl": "https://www.youtube.com/watch?v=vBHIfVcQ3Lw",
+            "thumbnail": "https://i.ytimg.com/vi/vBHIfVcQ3Lw/hqdefault.jpg"
+        },
+        {
+            "title": "ฝากขัง หากเกิน 84 วันแล้วไม่มีการฟ้อง ต้องปล่อยตัวผู้ต้องหาใช่ไหม",
+            "videoUrl": "https://www.youtube.com/watch?v=wz5jXkGSInA",
+            "thumbnail": "https://i.ytimg.com/vi/wz5jXkGSInA/hqdefault.jpg"
+        },
+        {
+            "title": "บุตรเสียชีวิต เจ้าหนี้คือบัตรเครดิตมีหนังสือทวงถามให้บิดาชำระหนี้ ควรทำอย่างไรดี ทายาทใช้หนี้แทนไหม?",
+            "videoUrl": "https://www.youtube.com/watch?v=S80Jsyz66Xc",
+            "thumbnail": "https://i.ytimg.com/vi/S80Jsyz66Xc/hqdefault.jpg"
+        },
+        {
+            "title": "ถูกฟ้อง เช่าซื้อ คืนรถแล้ว ทำอย่างไรดี คืนรถเอง",
+            "videoUrl": "https://www.youtube.com/watch?v=gbw8kAVpoq8",
+            "thumbnail": "https://i.ytimg.com/vi/gbw8kAVpoq8/hqdefault.jpg"
+        },
+        {
+            "title": "ผ่อนของกับแอพสีส้ม ภายหลังหยุดส่ง มีที่ดินมรดกชื่อร่วมกับพี่น้องจะถูกยึดหรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=MlythISGvkQ",
+            "thumbnail": "https://i.ytimg.com/vi/MlythISGvkQ/hqdefault.jpg"
+        },
+        {
+            "title": "ข้อหาเสพขับ ชำระค่าปรับแล้ว จะมีประวัติคดีความ ติดตัวหรือไม่#คดีอาญา",
+            "videoUrl": "https://www.youtube.com/watch?v=kBRBVynzW4g",
+            "thumbnail": "https://i.ytimg.com/vi/kBRBVynzW4g/hqdefault.jpg"
+        },
+        {
+            "title": "กู้ยืม ค้ำประกันไขว้กัน ต่อมาผู้ค้ำประกันถูกยึดที่ดิน ทำไม ไม่บังคับคดีผู้กู้ก่อน ผู้ค้ำทำไงได้บ้าง",
+            "videoUrl": "https://www.youtube.com/watch?v=KE-sfX8EHYo",
+            "thumbnail": "https://i.ytimg.com/vi/KE-sfX8EHYo/hqdefault.jpg"
+        },
+        {
             "title": "ขอหนังสือรับรองคดีถึงที่สุด ผ่านระบบอีไฟลลิ่ง จัดการมรดก ประชาชนยื่น ด้วยตนเอง มีค่าธรรมเนียม 50บาท",
             "videoUrl": "https://www.youtube.com/watch?v=TqzKi83aNAI",
             "thumbnail": "https://i.ytimg.com/vi/TqzKi83aNAI/hqdefault.jpg"
+        },
+        {
+            "title": "เคยถูกดำเนินคดีอาญา คดีจบหมดแล้ว สามารถเดินทางไปต่างประเทศได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=hLOlAscni9I",
+            "thumbnail": "https://i.ytimg.com/vi/hLOlAscni9I/hqdefault.jpg"
+        },
+        {
+            "title": "ผู้เช่าค้าง ค่าเช่าและค้างค่าน้ำ ค่าไฟ ค่าส่วนกลาง แจ้งความดำเนินคดีแล้ว ทำอย่างไรต่อไปดี",
+            "videoUrl": "https://www.youtube.com/watch?v=N6ItU4vr1D4",
+            "thumbnail": "https://i.ytimg.com/vi/N6ItU4vr1D4/hqdefault.jpg"
+        },
+        {
+            "title": "ถูกยึดทรัพย์ขายทอดตลาด ที่ดินติดจำนอง คนซื้อจะต้องรับหนี้จำนองไปด้วยหรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=U2t1TthabbA",
+            "thumbnail": "https://i.ytimg.com/vi/U2t1TthabbA/hqdefault.jpg"
+        },
+        {
+            "title": "ถูกฟ้อง ฉ้อโกงประชาชนและพรบคอมพิวเตอร์ จะวางค่าเสียหายให้ผู้เสียหาย อย่างไรดี",
+            "videoUrl": "https://www.youtube.com/watch?v=dGXZfGqrb8E",
+            "thumbnail": "https://i.ytimg.com/vi/dGXZfGqrb8E/hqdefault.jpg"
+        },
+        {
+            "title": "พระราชกฤษฎีกาอภัยโทษในโอกาสพระราชพิธีมหามงคลเฉลิมพระชนมพรรษา 6 รอบฯ นักโทษเด็ดขาด ลดวันต้องขัง",
+            "videoUrl": "https://www.youtube.com/watch?v=F42f_hBapgA",
+            "thumbnail": "https://i.ytimg.com/vi/F42f_hBapgA/hqdefault.jpg"
+        },
+        {
+            "title": "ถูกไฟแนนซ์ฟ้อง เช่าซื้อ ไปศาลแต่ไม่ได้เข้าห้องพิจารณา ผลเป็นอย่างไร",
+            "videoUrl": "https://www.youtube.com/watch?v=cssrBNC2Cvw",
+            "thumbnail": "https://i.ytimg.com/vi/cssrBNC2Cvw/hqdefault.jpg"
+        },
+        {
+            "title": "ขายสินค้า รองเท้าและกระเป๋า มีของแท้และไม่แท้ ทำอย่างไร จึงจะไม่ผิดกฎหมาย",
+            "videoUrl": "https://www.youtube.com/watch?v=Rm4ikkeh8Ws",
+            "thumbnail": "https://i.ytimg.com/vi/Rm4ikkeh8Ws/hqdefault.jpg"
+        },
+        {
+            "title": "13 สิงหาคม ค.ศ. 2024",
+            "videoUrl": "https://www.youtube.com/watch?v=npGzXnmQp4Q",
+            "thumbnail": "https://i.ytimg.com/vi/npGzXnmQp4Q/hqdefault.jpg"
+        },
+        {
+            "title": "ถูกฟ้องศาลแต่ไม่ได้ไปศาลตามนัด ต่อมาบ้านถูกขายทอดตลาด ทำอย่างไร จะโดนคดีอะไรไหม",
+            "videoUrl": "https://www.youtube.com/watch?v=3YuWEMdILR4",
+            "thumbnail": "https://i.ytimg.com/vi/3YuWEMdILR4/hqdefault.jpg"
+        },
+        {
+            "title": "ใช้บัตรเครดิตของผู้เสียชีวิต หลังจากที่ผู้เสียชีวิต ตายไปแล้ว ผิดอะไรบ้าง ทำอย่างไรดี",
+            "videoUrl": "https://www.youtube.com/watch?v=0NPKZfVlY0Q",
+            "thumbnail": "https://i.ytimg.com/vi/0NPKZfVlY0Q/hqdefault.jpg"
+        },
+        {
+            "title": "ผู้เสียหายคดีหมิ่นประมาท มีการตกลงกันเรื่องค่าเสียหาย แต่จำเลยไม่ชำระ ตามที่ตกลง ทำอย่างไรได้บ้าง",
+            "videoUrl": "https://www.youtube.com/watch?v=2gEsPLEGrVA",
+            "thumbnail": "https://i.ytimg.com/vi/2gEsPLEGrVA/hqdefault.jpg"
+        },
+        {
+            "title": "โดนฟ้องจากการซื้อสินค้า ไอแพด ขาดส่งมาปีกว่า ตอนนี้ iPadขายให้คนอื่นแล้ว ทำอย่างไรได้บ้าง",
+            "videoUrl": "https://www.youtube.com/watch?v=eeQ5AMhi1zM",
+            "thumbnail": "https://i.ytimg.com/vi/eeQ5AMhi1zM/hqdefault.jpg"
+        },
+        {
+            "title": "กู้ร่วมซื้อบ้านกับแฟน ต่อมาเลิกกัน ทำอย่างไรดีกับหนี้ก้อนโตนี้",
+            "videoUrl": "https://www.youtube.com/watch?v=Z3HJo7Z1RvM",
+            "thumbnail": "https://i.ytimg.com/vi/Z3HJo7Z1RvM/hqdefault.jpg"
+        },
+        {
+            "title": "โดนเจ้าหนี้โพสต์ประจาน ทำอย่างไรได้บ้าง ไม่ได้หนีหนี้แต่ไม่มีเงินใช้ตามที่เขาต้องการ",
+            "videoUrl": "https://www.youtube.com/watch?v=MyB3Htc7Iyw",
+            "thumbnail": "https://i.ytimg.com/vi/MyB3Htc7Iyw/hqdefault.jpg"
+        },
+        {
+            "title": "เป็นผู้เสียหาย คดีหมิ่นประมาทโดยการโฆษณา อยากยื่นคำร้องเรียกค่าสินไหมทดแทนตามมาตรา 44/1",
+            "videoUrl": "https://www.youtube.com/watch?v=LIU_-aMyEGs",
+            "thumbnail": "https://i.ytimg.com/vi/LIU_-aMyEGs/hqdefault.jpg"
+        },
+        {
+            "title": "บันทึกประจำวันชั้นพนักงานสอบสวนที่โรงพัก ถือเป็นการตกลงยอมความแล้วหรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=PgaKFi3oBhU",
+            "thumbnail": "https://i.ytimg.com/vi/PgaKFi3oBhU/hqdefault.jpg"
+        },
+        {
+            "title": "เป็นเจ้าหนี้คดีกู้ยืม เมื่อฟ้องคดี และชนะคดีแล้วจะได้เงินคืนเลยหรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=6rcjKf_Gvsg",
+            "thumbnail": "https://i.ytimg.com/vi/6rcjKf_Gvsg/hqdefault.jpg"
+        },
+        {
+            "title": "ออกรถให้แฟน เลิกกัน เอารถคืนไฟแนนซ์แล้วถูกฟ้องส่วนต่าง ทำอย่างไรดี",
+            "videoUrl": "https://www.youtube.com/watch?v=ot4ozyTM0SI",
+            "thumbnail": "https://i.ytimg.com/vi/ot4ozyTM0SI/hqdefault.jpg"
+        },
+        {
+            "title": "ถูกฟ้องคดีบัตรเครดิต แต่อายัดเงินเดือนไม่ได้เพราะคดีอื่นอายัดไว้แล้ว ต่อมา16 ปียังถูกอายัดได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=X99ewd19VWk",
+            "thumbnail": "https://i.ytimg.com/vi/X99ewd19VWk/hqdefault.jpg"
+        },
+        {
+            "title": "หมายเรียกคดีฉ้อโกง เป็นของจริงหรือของปลอม",
+            "videoUrl": "https://www.youtube.com/watch?v=SosexIYW-LA",
+            "thumbnail": "https://i.ytimg.com/vi/SosexIYW-LA/hqdefault.jpg"
+        },
+        {
+            "title": "ฟ้องชู้พร้อมกับฟ้องหย่าหรือฟ้องหย่าอย่างเดียว แบบไหนดีกว่ากัน สามียังให้เงินลูกอยู่",
+            "videoUrl": "https://www.youtube.com/watch?v=j0h0gHWkOaA",
+            "thumbnail": "https://i.ytimg.com/vi/j0h0gHWkOaA/hqdefault.jpg"
+        },
+        {
+            "title": "น้าออกรถ แม่และยายค้ำประกัน ตอนนี้ไม่มีรถคืน ถ้าน้าถูกดำเนินคดียักยอก แม่และยายยังต้องรับผิดไหม",
+            "videoUrl": "https://www.youtube.com/watch?v=CmHoARJGOi8",
+            "thumbnail": "https://i.ytimg.com/vi/CmHoARJGOi8/hqdefault.jpg"
+        },
+        {
+            "title": "แม่เอาโฉนดไปกู้เงินนอกระบบไม่เคยส่งเงินคืน หมายศาลมาที่บ้าน ให้ยึดที่ดินไปดีไหมหรือทำอย่างไรดี",
+            "videoUrl": "https://www.youtube.com/watch?v=T2r4VvCykDY",
+            "thumbnail": "https://i.ytimg.com/vi/T2r4VvCykDY/hqdefault.jpg"
+        },
+        {
+            "title": "คดีเช่าซื้อ ค้ำประกันรถให้เพื่อน มีบริษัททวงหนี้ แจ้งว่าจะอายัดทรัพย์ โดยยังไม่ฟ้องศาล ทำได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=dRG8mkUg3t8",
+            "thumbnail": "https://i.ytimg.com/vi/dRG8mkUg3t8/hqdefault.jpg"
+        },
+        {
+            "title": "โดนคดีอุทยาน ป่าไม้และถูกจำคุกไปแล้ว ตอนนี้มีจดหมายให้ชำระค่าเสียหายทางแพ่งควรทำอย่างไรดี",
+            "videoUrl": "https://www.youtube.com/watch?v=C_hGjPxboZY",
+            "thumbnail": "https://i.ytimg.com/vi/C_hGjPxboZY/hqdefault.jpg"
+        },
+        {
+            "title": "ผู้กู้ปลอมลายเซ็นคู่สมรส คู่สมรสผู้ค้ำประกันทราบเรื่อง จะดำเนินคดีผู้กู้ได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=jC6eBw66vFY",
+            "thumbnail": "https://i.ytimg.com/vi/jC6eBw66vFY/hqdefault.jpg"
+        },
+        {
+            "title": "ฟ้องคดีแพ่งจนกระทั่งชนะคดีแล้ว ต้องตั้งเรื่องบังคับคดีไหม",
+            "videoUrl": "https://www.youtube.com/watch?v=8h_UM9jWjwE",
+            "thumbnail": "https://i.ytimg.com/vi/8h_UM9jWjwE/hqdefault.jpg"
+        },
+        {
+            "title": "ค้างชำระค่างวด 3 งวดติด ไฟแนนซ์แจ้งให้ชำระเงิน 30,000กว่า ถ้าไม่ชำระจะถูกยึดรถ ไม่มีเงินทำอย่างไรดี",
+            "videoUrl": "https://www.youtube.com/watch?v=NXy5tdLSbVU",
+            "thumbnail": "https://i.ytimg.com/vi/NXy5tdLSbVU/hqdefault.jpg"
+        },
+        {
+            "title": "ที่ข้างเคียงทำเพลิงไหม้ ทรัพย์สินเราเสียหาย ตกลงค่าเสียหายที่โรงพัก ต่อมาไม่ชำระทำอย่างไรดี",
+            "videoUrl": "https://www.youtube.com/watch?v=sQlo6PWM8Fg",
+            "thumbnail": "https://i.ytimg.com/vi/sQlo6PWM8Fg/hqdefault.jpg"
+        },
+        {
+            "title": "เจ้าหนี้ยึดทรัพย์ออกขายทอดตลาด แต่ว่าทรัพย์ที่ยึดยังขายไม่ได้ เจ้าหนี้จะไปประมูลเองได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=Go6kM4XnV-Y",
+            "thumbnail": "https://i.ytimg.com/vi/Go6kM4XnV-Y/hqdefault.jpg"
+        },
+        {
+            "title": "แม่เป็นหนี้ แม่โอนทรัพย์สินให้ลูก ลูกจะมีความผิดฐานโยกย้ายทรัพย์สินหรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=rznjXARvsc4",
+            "thumbnail": "https://i.ytimg.com/vi/rznjXARvsc4/hqdefault.jpg"
+        },
+        {
+            "title": "ศาลชั้นต้นพิพากษาจำคุก ต่อมาศาลอุทธรณ์พิพากษายืนจำเลยประสงค์จะฎีกา ถามว่าจะต้องเข้าเรือนจำหรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=e4sXbKk0-Vs",
+            "thumbnail": "https://i.ytimg.com/vi/e4sXbKk0-Vs/hqdefault.jpg"
+        },
+        {
+            "title": "เช่าซื้อ ค้างชำระค่างวด 3 งวดติดกัน ไฟแนนซ์บอกให้ ชำระค่างวดที่ค้าง ไม่งั้นจะมายึดรถทำอย่างไรดี",
+            "videoUrl": "https://www.youtube.com/watch?v=eTkr3rJ_ngk",
+            "thumbnail": "https://i.ytimg.com/vi/eTkr3rJ_ngk/hqdefault.jpg"
+        },
+        {
+            "title": "โดนจับ ตรวจพบฉี่ม่วง วันนี้ศาลมีคำพิพากษาและให้ประกันตัวไปวงเงิน 5,000 บาท ไม่มีใครให้คำตอบ",
+            "videoUrl": "https://www.youtube.com/watch?v=2DdIU7aWzWo",
+            "thumbnail": "https://i.ytimg.com/vi/2DdIU7aWzWo/hqdefault.jpg"
+        },
+        {
+            "title": "บ้านโดนยึดขายทอดตลาดไปแล้ว แต่ธนาคารแจ้งว่ายังมีหนี้ค้างชำระ เตรียมตัวอย่างไรดี",
+            "videoUrl": "https://www.youtube.com/watch?v=MJkHrzc3tR4",
+            "thumbnail": "https://i.ytimg.com/vi/MJkHrzc3tR4/hqdefault.jpg"
+        },
+        {
+            "title": "ได้รับหมายศาลคดีกู้ยืมแต่บุตรชายผู้กู้ จำเลย อยู่ต่างประเทศ ผมเป็นพ่อจะช่วยลูกได้อย่างไรบ้าง",
+            "videoUrl": "https://www.youtube.com/watch?v=-eJtj0hEANU",
+            "thumbnail": "https://i.ytimg.com/vi/-eJtj0hEANU/hqdefault.jpg"
+        },
+        {
+            "title": "หลังจากยื่นอุทธรณ์นานไหม กว่าศาลจะนัดฟังคำพิพากษาศาลอุทธรณ์",
+            "videoUrl": "https://www.youtube.com/watch?v=60FFM_exPNI",
+            "thumbnail": "https://i.ytimg.com/vi/60FFM_exPNI/hqdefault.jpg"
+        },
+        {
+            "title": "ศาลนัดไกล่เกลี่ย คดีบัตรเครดิต ขอเลื่อนคดีออกไปอีกได้ไหม ไม่สะดวกไปศาลจะทำอย่างไรดี",
+            "videoUrl": "https://www.youtube.com/watch?v=H-wPdcyTOKE",
+            "thumbnail": "https://i.ytimg.com/vi/H-wPdcyTOKE/hqdefault.jpg"
+        },
+        {
+            "title": "พนักงานแคชเชียร์ ยักยอก อยากทราบว่า โทษจำคุกสูงสุดกี่ปี",
+            "videoUrl": "https://www.youtube.com/watch?v=IJtrnTKSpT0",
+            "thumbnail": "https://i.ytimg.com/vi/IJtrnTKSpT0/hqdefault.jpg"
+        },
+        {
+            "title": "ผ่อนโทรศัพท์ เราเป็นคนทำสัญญาแต่แฟนเป็นคนผ่อน ต่อมาแฟนไม่ผ่อนทำยังไงดี",
+            "videoUrl": "https://www.youtube.com/watch?v=EARzOZeevSI",
+            "thumbnail": "https://i.ytimg.com/vi/EARzOZeevSI/hqdefault.jpg"
+        },
+        {
+            "title": "หาทนายส่งโนติสให้ลูกหนี้ ขอราคาเหมาโดนโกงหลายราย แนะนำทำเอกสารได้ด้วยตนเอง",
+            "videoUrl": "https://www.youtube.com/watch?v=nVY0Ak7lEMg",
+            "thumbnail": "https://i.ytimg.com/vi/nVY0Ak7lEMg/hqdefault.jpg"
+        },
+        {
+            "title": "คำบังคับ ได้รับเอกสารนี้แล้ว ต้องดำเนินการอย่างไรต่อ เตรียมชำระหนี้ให้กับเจ้าหนี้",
+            "videoUrl": "https://www.youtube.com/watch?v=yF7HZNfTwj8",
+            "thumbnail": "https://i.ytimg.com/vi/yF7HZNfTwj8/hqdefault.jpg"
+        },
+        {
+            "title": "เช่าซื้อ ถูกฟ้องส่วนต่าง ทำอย่างไรได้บ้าง",
+            "videoUrl": "https://www.youtube.com/watch?v=6JIhtcDbCQ0",
+            "thumbnail": "https://i.ytimg.com/vi/6JIhtcDbCQ0/hqdefault.jpg"
+        },
+        {
+            "title": "ถูกฟ้องฉ้อโกง ศาลชั้นต้นยกฟ้อง โจทก์อุทธรณ์ จะขอขยายเวลายื่นคำแก้อุทธรณ์ได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=FL-AtmgcrjI",
+            "thumbnail": "https://i.ytimg.com/vi/FL-AtmgcrjI/hqdefault.jpg"
+        },
+        {
+            "title": "ยึดที่ดินขายทอดตลาด แต่ยังขายไม่ได้ เจ้าหนี้จะไปประมูลได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=AhGByuY-2vo",
+            "thumbnail": "https://i.ytimg.com/vi/AhGByuY-2vo/hqdefault.jpg"
+        },
+        {
+            "title": "ทำพินัยกรรม แบบธรรมดา พิมพ์เอกสารด้วยตนเองต้องมีพยาน ๒ คนและข้อควรระวัง",
+            "videoUrl": "https://www.youtube.com/watch?v=Mmz08k4aMpc",
+            "thumbnail": "https://i.ytimg.com/vi/Mmz08k4aMpc/hqdefault.jpg"
+        },
+        {
+            "title": "ใครถูกยืมเงินบ้างคะ ลูกหนี้ไม่มีไม่หนีไม่จ่ายกินหรูอยู่สบาย มาทำหนังสือทวงถามหนี้ โนติสทวงหนี้ ทำเอง",
+            "videoUrl": "https://www.youtube.com/watch?v=s5Mls-VIyCk",
+            "thumbnail": "https://i.ytimg.com/vi/s5Mls-VIyCk/hqdefault.jpg"
+        },
+        {
+            "title": "เช่าซื้อ คืนรถแล้ว ถูกฟ้องส่วนต่าง ทำไงดี ยื่นคำให้การสู้คดี มาฟังกันเลยคะ",
+            "videoUrl": "https://www.youtube.com/watch?v=KsBTjYhfot0",
+            "thumbnail": "https://i.ytimg.com/vi/KsBTjYhfot0/hqdefault.jpg"
+        },
+        {
+            "title": "ส่งโนติสให้ลูกหนี้แล้วท้าให้ฟ้อง สืบทรัพย์ไม่มีทรัพย์สินอะไรให้ยึด ทำยังไงดี",
+            "videoUrl": "https://www.youtube.com/watch?v=QLVtQ1orH3o",
+            "thumbnail": "https://i.ytimg.com/vi/QLVtQ1orH3o/hqdefault.jpg"
+        },
+        {
+            "title": "ถูกฟ้องเช่าซื้อไม่อยากคืนรถ ยื่นคำให้การตาม แบบ ผบ๓ และให้ศาลพิพากษา ได้ยอดแล้วเคลียร์หนี้กันภายหลัง",
+            "videoUrl": "https://www.youtube.com/watch?v=0HanimJjfJI",
+            "thumbnail": "https://i.ytimg.com/vi/0HanimJjfJI/hqdefault.jpg"
+        },
+        {
+            "title": "พินัยกรรมแบบเขียนเองทั้งฉบับ ทำได้ด้วยตนเอง ภายใน 3 นาที",
+            "videoUrl": "https://www.youtube.com/watch?v=3ehLgjr5Cwc",
+            "thumbnail": "https://i.ytimg.com/vi/3ehLgjr5Cwc/hqdefault.jpg"
+        },
+        {
+            "title": "ฟ้องคดีกู้ยืมเงิน ค่าใช้จ่ายทนายความเท่าไหร่ มีหลักเกณฑ์คิดค่าทนายอย่างไร",
+            "videoUrl": "https://www.youtube.com/watch?v=mh6zd8EuFPQ",
+            "thumbnail": "https://i.ytimg.com/vi/mh6zd8EuFPQ/hqdefault.jpg"
+        },
+        {
+            "title": "แจ้งความลักทรัพย์ เจรจาไม่ติดใจเอาความและได้รับคืนของแล้ว ต่อมาจะเปลี่ยนใจเอาความจำเลยได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=MOCTKNkh45E",
+            "thumbnail": "https://i.ytimg.com/vi/MOCTKNkh45E/hqdefault.jpg"
+        },
+        {
+            "title": "ถูกยืมเงินหลายหมื่นบาท มีสลิปการโอน อยากได้เงินคืนทำอย่างไรดี",
+            "videoUrl": "https://www.youtube.com/watch?v=8ICpPeMXK3w",
+            "thumbnail": "https://i.ytimg.com/vi/8ICpPeMXK3w/hqdefault.jpg"
+        },
+        {
+            "title": "การบังคับคดีลูกหนี้ โจทก์สามารถดำเนินการเองได้ไหมหรือต้องให้ทนายดำเนินการ",
+            "videoUrl": "https://www.youtube.com/watch?v=vM92g2lo-4w",
+            "thumbnail": "https://i.ytimg.com/vi/vM92g2lo-4w/hqdefault.jpg"
+        },
+        {
+            "title": "สามีออกรถให้พ่อ ต่อมาพ่อไม่ส่งค่างวด ถูกฟ้องส่วนต่าง ทำอย่างไรดี",
+            "videoUrl": "https://www.youtube.com/watch?v=YbYqr7jcPuU",
+            "thumbnail": "https://i.ytimg.com/vi/YbYqr7jcPuU/hqdefault.jpg"
+        },
+        {
+            "title": "พ่อกับแม่ไม่จดทะเบียน ต่อมาพ่อเสียชีวิต ไปรับเงินสงเคราะห์บุตรที่ประกันสังคม ต้องมีคำสั่งศาลคืออะไร",
+            "videoUrl": "https://www.youtube.com/watch?v=-_ESsByUnyw",
+            "thumbnail": "https://i.ytimg.com/vi/-_ESsByUnyw/hqdefault.jpg"
+        },
+        {
+            "title": "ลูกหนี้ ไม่มีทรัพย์สินอะไรให้บังคับเลย เจ้าหนี้จะแก้ไข โดยให้ทำสัญญาอะไรบ้างได้ไหม",
+            "videoUrl": "https://www.youtube.com/watch?v=rVmsTwq_JHM",
+            "thumbnail": "https://i.ytimg.com/vi/rVmsTwq_JHM/hqdefault.jpg"
+        },
+        {
+            "title": "จัดการมรดกมีค่าใช้จ่ายเท่าไหร่ ยื่นผ่านระบบ E filing ได้ทุกศาบทั่วประเทศโดยประชาชน ยื่นได้ด้วยตนเอง",
+            "videoUrl": "https://www.youtube.com/watch?v=8Z20NNPrjyw",
+            "thumbnail": "https://i.ytimg.com/vi/8Z20NNPrjyw/hqdefault.jpg"
+        },
+        {
+            "title": "รถถูกยึดไปแล้วและขายทอดตลาด ธนาคารแจ้งว่ายังมีค่าส่วนต่าง ทำอย่างไรดี",
+            "videoUrl": "https://www.youtube.com/watch?v=udQLkEMcJfk",
+            "thumbnail": "https://i.ytimg.com/vi/udQLkEMcJfk/hqdefault.jpg"
+        },
+        {
+            "title": "ลูกหนี้ออกเช็ค แต่ขึ้นเงินไม่ได้ เป็นคดีแพ่งหรือคดีอาญาหรือเป็นทั้งสองอย่าง",
+            "videoUrl": "https://www.youtube.com/watch?v=qMgqEMYOhwM",
+            "thumbnail": "https://i.ytimg.com/vi/qMgqEMYOhwM/hqdefault.jpg"
+        },
+        {
+            "title": "พ่อเสียชีวิต แม่จดทะเบียน จะแบ่งที่ดินให้ลูกๆ ย่าบอกว่า ที่ดินเป็นของย่าไม่ใช่ของเมีย จริงหรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=0LgzntM5Gls",
+            "thumbnail": "https://i.ytimg.com/vi/0LgzntM5Gls/hqdefault.jpg"
+        },
+        {
+            "title": "ครอบครองสื่อฯ ภาพและเสียง เพื่อการค้า ศาลชั้นต้นจำคุก ถ้ายื่นอุทธรณ์ ศาลอุทธรณ์จะรอลงอาญาไหม",
+            "videoUrl": "https://www.youtube.com/watch?v=i63V4oWWenU",
+            "thumbnail": "https://i.ytimg.com/vi/i63V4oWWenU/hqdefault.jpg"
+        },
+        {
+            "title": "ซื้อสินค้าออนไลน์ ได้ของไม่ครบ ไม่ตรงปก ชำรุดบกพร่อง ฟ้องง่ายได้ที่ศาลแพ่ง",
+            "videoUrl": "https://www.youtube.com/watch?v=iO9a0RkeYBg",
+            "thumbnail": "https://i.ytimg.com/vi/iO9a0RkeYBg/hqdefault.jpg"
+        },
+        {
+            "title": "หลังจากปรับโครงสร้างหนี้แล้วดอกเบี้ยขึ้นสูงมาก หยุดจ่ายและไปไกล่เกลี่ยที่ศาลดีไหม",
+            "videoUrl": "https://www.youtube.com/watch?v=sD5nqtQdku0",
+            "thumbnail": "https://i.ytimg.com/vi/sD5nqtQdku0/hqdefault.jpg"
+        },
+        {
+            "title": "หมายนัดฟังคำพิพากษาศาลอุทธรณ์ส่งมาบ้าน เพราะพนักงานอัยการอุทธรณ์คำพิพากษาศาลชั้นต้น",
+            "videoUrl": "https://www.youtube.com/watch?v=qk3eIUdtrno",
+            "thumbnail": "https://i.ytimg.com/vi/qk3eIUdtrno/hqdefault.jpg"
+        },
+        {
+            "title": "ถูกคนไว้ใจขโมยของ และเค้าขอไว้ไม่ให้แจ้งความ ตอนนี้ไม่ชำระค่าเสียหาย จะแจ้งความดำเนินคดีได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=VXUw65NTdfw",
+            "thumbnail": "https://i.ytimg.com/vi/VXUw65NTdfw/hqdefault.jpg"
+        },
+        {
+            "title": "ฟ้องแพ่ง 6 ล้าน เสียค่าขึ้นศาลเท่าไหร่ ขอยกเว้นค่าธรรมเนียม ได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=1vsSkuiJEIc",
+            "thumbnail": "https://i.ytimg.com/vi/1vsSkuiJEIc/hqdefault.jpg"
+        },
+        {
+            "title": "พ่อเสียชีวิตกว่า10เดือนแล้ว ลูกยื่นขอบำเหน็จตกทอด ส่งเอกสารครบแล้ว ทำไมได้เงินช้าจัง",
+            "videoUrl": "https://www.youtube.com/watch?v=1FXcKnWHNZE",
+            "thumbnail": "https://i.ytimg.com/vi/1FXcKnWHNZE/hqdefault.jpg"
+        },
+        {
+            "title": "พ่อเสียชีวิตและมีบำเหน็จตกทอด ยื่นเอกสารครบแล้วแต่ทำไมยังไม่ได้เงิน ได้เงินช้าจัง",
+            "videoUrl": "https://www.youtube.com/watch?v=ri5jh0Uf_jM",
+            "thumbnail": "https://i.ytimg.com/vi/ri5jh0Uf_jM/hqdefault.jpg"
+        },
+        {
+            "title": "พ่อสามีเสียชีวิต สามีจะเปลี่ยนทรัพย์สินที่เป็นชื่อพ่อเป็นชื่อตัวเองต้องทำอย่างไร ค่าใช้จ่ายเท่าไหร่",
+            "videoUrl": "https://www.youtube.com/watch?v=GBjm6GrxX0s",
+            "thumbnail": "https://i.ytimg.com/vi/GBjm6GrxX0s/hqdefault.jpg"
+        },
+        {
+            "title": "แต่งงานไม่จดทะเบียน เงินสินสอดปลูกบ้านในที่ดินของฝ่ายชาย ถ้าเลิกกัน บ้านเป็นของฝ่ายชายหมดใช่ไหม",
+            "videoUrl": "https://www.youtube.com/watch?v=5CEqO_g0iBc",
+            "thumbnail": "https://i.ytimg.com/vi/5CEqO_g0iBc/hqdefault.jpg"
+        },
+        {
+            "title": "ยืมรถแล้วไม่คืน ผิดยักยอกหรือไม่ ทำอย่างไรดี",
+            "videoUrl": "https://www.youtube.com/watch?v=gPBvmPXx_E0",
+            "thumbnail": "https://i.ytimg.com/vi/gPBvmPXx_E0/hqdefault.jpg"
+        },
+        {
+            "title": "ถูกฟ้องบัตรเครดิต ต้องมีทนายความไหม ถ้าผ่อนไม่ไหว ทำไงต่อดี",
+            "videoUrl": "https://www.youtube.com/watch?v=srhfKBAsrJ8",
+            "thumbnail": "https://i.ytimg.com/vi/srhfKBAsrJ8/hqdefault.jpg"
+        },
+        {
+            "title": "กู้ยืมแบบมีผู้ค้ำประกัน ผู้ให้กู้ต้องดูคุณสมบัติคนค้ำอะไรบ้าง ต้องใช้เอกสารอะไร เซ็นต์ที่โรงพักดีไหม",
+            "videoUrl": "https://www.youtube.com/watch?v=3rGkpkyGo90",
+            "thumbnail": "https://i.ytimg.com/vi/3rGkpkyGo90/hqdefault.jpg"
+        },
+        {
+            "title": "ขายบ้านและที่ดินให้กับผู้ซื้อแล้ว หลังจากนั้นผู้ขายมีสิทธิที่จะอยู่ในบ้านกี่วัน ที่จะไม่ผิดกฎหมาย",
+            "videoUrl": "https://www.youtube.com/watch?v=YT6EktKlp7c",
+            "thumbnail": "https://i.ytimg.com/vi/YT6EktKlp7c/hqdefault.jpg"
+        },
+        {
+            "title": "คดีอาญา จำเลยนัดชำระหนี้ต่อมายื่นคำร้อง ขอลดการผ่อนชำระหนี้ ผู้เสียหายทำอะไรได้บ้าง",
+            "videoUrl": "https://www.youtube.com/watch?v=gHOS1Tg3xdI",
+            "thumbnail": "https://i.ytimg.com/vi/gHOS1Tg3xdI/hqdefault.jpg"
+        },
+        {
+            "title": "คดีอาญา ศาลยกฟ้องแล้ว จำเลยจะยังคงมีประวัติติดตัวหรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=YYWrCOmcJAY",
+            "thumbnail": "https://i.ytimg.com/vi/YYWrCOmcJAY/hqdefault.jpg"
+        },
+        {
+            "title": "ช่วยเพื่อนแชร์โพสคนกู้เงินแล้วไม่ยอมจ่าย ถูกหมายเรียกคดีหมิ่นประมาทโดยการโฆษณา",
+            "videoUrl": "https://www.youtube.com/watch?v=fzWIMnHhkiA",
+            "thumbnail": "https://i.ytimg.com/vi/fzWIMnHhkiA/hqdefault.jpg"
+        },
+        {
+            "title": "ไม่ไปรายงานตัวตามศาลกำหนดและถูกออกหมายจับ ต่อมามีคดีลักทรัพย์กลางคืนจะติดนานไหม",
+            "videoUrl": "https://www.youtube.com/watch?v=TNZM-Ia4HM0",
+            "thumbnail": "https://i.ytimg.com/vi/TNZM-Ia4HM0/hqdefault.jpg"
+        },
+        {
+            "title": "สั่งสินค้าแต่สินค้าไม่มาส่ง บริษัทไม่โอนเงินคืน แจ้งความฉ้อโกงได้ไหม",
+            "videoUrl": "https://www.youtube.com/watch?v=D1p8pMTMi7c",
+            "thumbnail": "https://i.ytimg.com/vi/D1p8pMTMi7c/hqdefault.jpg"
+        },
+        {
+            "title": "ถูกฟ้องเรื่องบ้าน มีหมายศาลมา วันนัดไปศาลต้องเตรียมเงินไปไหม ทำอย่างไรบ้าง",
+            "videoUrl": "https://www.youtube.com/watch?v=ZF2whAAv8J0",
+            "thumbnail": "https://i.ytimg.com/vi/ZF2whAAv8J0/hqdefault.jpg"
+        },
+        {
+            "title": "เป็นหนี้ธนาคารอยู่และส่งไม่ไหว เจ้าหนี้มีสิทธิยึดทรัพย์สินของพ่อและแม่ลูกหนี้ได้ไหม",
+            "videoUrl": "https://www.youtube.com/watch?v=Huxa7Fhgo8Y",
+            "thumbnail": "https://i.ytimg.com/vi/Huxa7Fhgo8Y/hqdefault.jpg"
+        },
+        {
+            "title": "ร้องขอจัดการมรดก ได้รับสำเนาคำร้องขอจัดการมรดก เป็นทายาท ต้องไปศาล คัดค้านหรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=Y_tLjoFRcqY",
+            "thumbnail": "https://i.ytimg.com/vi/Y_tLjoFRcqY/hqdefault.jpg"
+        },
+        {
+            "title": "อยากขอหนังสือรับรองคดีถึงที่สุด แต่อีกฝ่ายยังขยายระยะเวลาอุทธรณ์ ต้องทำอย่างไร",
+            "videoUrl": "https://www.youtube.com/watch?v=VH_ipdJ77sI",
+            "thumbnail": "https://i.ytimg.com/vi/VH_ipdJ77sI/hqdefault.jpg"
+        },
+        {
+            "title": "ผู้เสียหายมอบอำนาจให้บุคคลอื่นไปแจ้งความดำเนินคดีแทนได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=PeIU-l4zlCI",
+            "thumbnail": "https://i.ytimg.com/vi/PeIU-l4zlCI/hqdefault.jpg"
+        },
+        {
+            "title": "เป็นหนี้กองทุน ต่อมาถูกอายัดเงินเดือน และไม่พอใช้จ่าย ทำอย่างไรดี",
+            "videoUrl": "https://www.youtube.com/watch?v=rlYBAMOUIVA",
+            "thumbnail": "https://i.ytimg.com/vi/rlYBAMOUIVA/hqdefault.jpg"
+        },
+        {
+            "title": "ไม่ได้จดทะเบียนกับพ่อของลูก อยากให้พ่อของลูกรับรองบุตร ฟ้องได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=KKyWIVmYLMM",
+            "thumbnail": "https://i.ytimg.com/vi/KKyWIVmYLMM/hqdefault.jpg"
+        },
+        {
+            "title": "ถูกฟ้องบัตรเครดิต ไปศาลดีไหมกลัวผ่อนไม่ไหว ไม่มีทรัพย์สินอะไรมีแต่รถยนต์ที่เช่าซื้อ",
+            "videoUrl": "https://www.youtube.com/watch?v=YJV5zfUjJhQ",
+            "thumbnail": "https://i.ytimg.com/vi/YJV5zfUjJhQ/hqdefault.jpg"
+        },
+        {
+            "title": "ไฟแนนซ์มายกรถตอนที่เราไม่อยู่ แจ้งความได้ไหม ทำอะไรได้บ้าง เช่าซื้อ ถูกยกรถ",
+            "videoUrl": "https://www.youtube.com/watch?v=WJnYcD9c_zE",
+            "thumbnail": "https://i.ytimg.com/vi/WJnYcD9c_zE/hqdefault.jpg"
+        },
+        {
+            "title": "อุบัติเหตุ ขับรถยนต์ชนบาดเจ็บ ผู้เสียหายเรียกค่าขาดประโยชน์ที่ต้องหยุดงานได้ไหม",
+            "videoUrl": "https://www.youtube.com/watch?v=Ld0Y-axDNR4",
+            "thumbnail": "https://i.ytimg.com/vi/Ld0Y-axDNR4/hqdefault.jpg"
+        },
+        {
+            "title": "บ้านถูกยึดขายทอดตลาด แต่ยังไม่ครบหนี้ จะรับโอนที่ดินจากแม่ดีไหม",
+            "videoUrl": "https://www.youtube.com/watch?v=oXTy_mQDLAo",
+            "thumbnail": "https://i.ytimg.com/vi/oXTy_mQDLAo/hqdefault.jpg"
+        },
+        {
+            "title": "จ้างทำของ ถ้าจะยกเลิกสัญญากับบริษัทรับเหมาก่อสร้างต้องทำเป็นหนังสือหรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=DtOoX848NJM",
+            "thumbnail": "https://i.ytimg.com/vi/DtOoX848NJM/hqdefault.jpg"
+        },
+        {
+            "title": "ถูกอายัดเงินเดือน จากบังคับคดี เงินเดือนไม่พอใช้ ทำอย่างไรได้บ้าง",
+            "videoUrl": "https://www.youtube.com/watch?v=N3wNaSZSJgU",
+            "thumbnail": "https://i.ytimg.com/vi/N3wNaSZSJgU/hqdefault.jpg"
+        },
+        {
+            "title": "หย่าและแบ่งทรัพย์สินระหว่างสามีภรรยา ทรัพย์สินที่ได้มาที่เป็นมรดกต้องแบ่งให้คู่สมรสด้วยหรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=N18qxtdrPv4",
+            "thumbnail": "https://i.ytimg.com/vi/N18qxtdrPv4/hqdefault.jpg"
+        },
+        {
+            "title": "ลักทรัพย์นายจ้าง ทำอย่างไรจึงจะไม่ติดคุก ขอผ่อนชำระค่าเสียหายได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=cYOHWymJGEs",
+            "thumbnail": "https://i.ytimg.com/vi/cYOHWymJGEs/hqdefault.jpg"
+        },
+        {
+            "title": "จำเลยยื่นอุทธรณ์ ผู้เสียหายที่เป็นโจทก์ร่วมมีสิทธิที่จะคัดค้าน ฟ้องอุทธรณ์ของจำเลยอย่างไรได้บ้าง",
+            "videoUrl": "https://www.youtube.com/watch?v=nWdVQEo8SKk",
+            "thumbnail": "https://i.ytimg.com/vi/nWdVQEo8SKk/hqdefault.jpg"
+        },
+        {
+            "title": "เช่าซื้อ แม่ค้ำประกันให้ลูก ถ้าลูกไม่ส่งค่างวดแม่จะถูกยึดทรัพย์สินหรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=fCrOYYFTdgI",
+            "thumbnail": "https://i.ytimg.com/vi/fCrOYYFTdgI/hqdefault.jpg"
+        },
+        {
+            "title": "มีหมายศาลให้ไปศาล แต่ไม่สะดวกไปศาลเพราะอยู่ต่างประเทศ ทำอย่างไรได้บ้าง",
+            "videoUrl": "https://www.youtube.com/watch?v=sgPvjRGAThw",
+            "thumbnail": "https://i.ytimg.com/vi/sgPvjRGAThw/hqdefault.jpg"
+        },
+        {
+            "title": "ฟ้องขอให้ฝ่ายชายรับรองบุตร ต้องทำอย่างไร",
+            "videoUrl": "https://www.youtube.com/watch?v=iJFdFiM2Bog",
+            "thumbnail": "https://i.ytimg.com/vi/iJFdFiM2Bog/hqdefault.jpg"
+        },
+        {
+            "title": "บัตรเครดิตและบัตรกดเงินสด ส่งเงินไปตัดแต่ดอกเบี้ย ทำยังไงดีตอนนี้เครียดมาก",
+            "videoUrl": "https://www.youtube.com/watch?v=wC_EkxUqYY8",
+            "thumbnail": "https://i.ytimg.com/vi/wC_EkxUqYY8/hqdefault.jpg"
+        },
+        {
+            "title": "ฟ้องขอให้ฝ่ายชายรับรองบุตร ต้องทำอย่างไร",
+            "videoUrl": "https://www.youtube.com/watch?v=iJFdFiM2Bog",
+            "thumbnail": "https://i.ytimg.com/vi/iJFdFiM2Bog/hqdefault.jpg"
+        },
+        {
+            "title": "บัตรเครดิตและบัตรกดเงินสด ส่งเงินไปตัดแต่ดอกเบี้ย ทำยังไงดีตอนนี้เครียดมาก",
+            "videoUrl": "https://www.youtube.com/watch?v=wC_EkxUqYY8",
+            "thumbnail": "https://i.ytimg.com/vi/wC_EkxUqYY8/hqdefault.jpg"
+        },
+        {
+            "title": "เพื่อนยืมเงินแล้วไม่คืน โทรทวงตอบไม่มี แบบนี้แจ้งความฉ้อโกงหรือยักยอกได้ไหม",
+            "videoUrl": "https://www.youtube.com/watch?v=Dd7qwdaa0Lk",
+            "thumbnail": "https://i.ytimg.com/vi/Dd7qwdaa0Lk/hqdefault.jpg"
+        },
+        {
+            "title": "ฟ้องชู้เรียกค่าทดแทน ศาลชั้นต้นยกฟ้อง ถ้าจำเลยแพ้คดีชั้นอุทธรณ์แนวทางการ ชดใช้ค่าเสียหายเป็นอย่างไร",
+            "videoUrl": "https://www.youtube.com/watch?v=Ab1DedM1YRo",
+            "thumbnail": "https://i.ytimg.com/vi/Ab1DedM1YRo/hqdefault.jpg"
+        },
+        {
+            "title": "คดีอาญาไม่มีเงินประกันตัวขอเช่าหลักทรัพย์จากศาลได้ไหม และคิดราคาเท่าไหร่",
+            "videoUrl": "https://www.youtube.com/watch?v=7AXTRRF3gvM",
+            "thumbnail": "https://i.ytimg.com/vi/7AXTRRF3gvM/hqdefault.jpg"
+        },
+        {
+            "title": "คำบังคับ ระบุว่า โดนจับและจำขัง หมายความว่าอย่างไร ไม่มีเงินปิดหนี้ ทำยังไงดี",
+            "videoUrl": "https://www.youtube.com/watch?v=_jORkFLkCUo",
+            "thumbnail": "https://i.ytimg.com/vi/_jORkFLkCUo/hqdefault.jpg"
+        },
+        {
+            "title": "หมิ่นประมาทด้วยการโฆษณา โพสต์ข้อความเพราะถูกแย่งแฟน ถูกเรียกค่าเสียหายห้าแสน มีทางออกอื่นไหม",
+            "videoUrl": "https://www.youtube.com/watch?v=e7vNokQ0Czg",
+            "thumbnail": "https://i.ytimg.com/vi/e7vNokQ0Czg/hqdefault.jpg"
+        },
+        {
+            "title": "คดีแพ่ง ลูกหนี้ไม่มีทรัพย์สินอะไรให้ยึด สามารถยึดทรัพย์สินที่เป็นชื่อของสามีและลูกได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=l3KI1eR8ZZQ",
+            "thumbnail": "https://i.ytimg.com/vi/l3KI1eR8ZZQ/hqdefault.jpg"
+        },
+        {
+            "title": "คดีแพ่งศาลตัดสินให้ชำระรายเดือน ให้ทนายสืบทรัพย์แจ้งว่าไม่พบอะไร ทำอย่างไรดี",
+            "videoUrl": "https://www.youtube.com/watch?v=IfmL58A6h04",
+            "thumbnail": "https://i.ytimg.com/vi/IfmL58A6h04/hqdefault.jpg"
+        },
+        {
+            "title": "อยู่ระหว่างอุทธรณ์คำพิพากษาคดีเช่าซื้อ แต่มีคำบังคับส่งมาที่บ้าน หมายความว่าอย่างไร",
+            "videoUrl": "https://www.youtube.com/watch?v=glvW-Z7vzZk",
+            "thumbnail": "https://i.ytimg.com/vi/glvW-Z7vzZk/hqdefault.jpg"
+        },
+        {
+            "title": "หนี้บัตรเครดิต มีชื่อเป็นเจ้าบ้าน แต่ไม่ได้เป็นเจ้าของกรรมสิทธิ์ เจ้าหนี้ยึดได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=1b3HUth9s-E",
+            "thumbnail": "https://i.ytimg.com/vi/1b3HUth9s-E/hqdefault.jpg"
+        },
+        {
+            "title": "ผู้เสียหาย มีสิทธิที่จะคัดค้านการประกันตัวของจำเลยหรือไม่ ทำได้ด้วยการยื่นคำร้องอ้างเหตุนั้น",
+            "videoUrl": "https://www.youtube.com/watch?v=MyiVX8HTmjI",
+            "thumbnail": "https://i.ytimg.com/vi/MyiVX8HTmjI/hqdefault.jpg"
+        },
+        {
+            "title": "ขอหนังสือรับรองคดีถึงที่สุด ใช้เวลากี่วัน ขอออนไลน์หรือไปที่ศาลดีกว่ากัน",
+            "videoUrl": "https://www.youtube.com/watch?v=5S2OC0jc55A",
+            "thumbnail": "https://i.ytimg.com/vi/5S2OC0jc55A/hqdefault.jpg"
+        },
+        {
+            "title": "ถูกฟ้องปลอมสลิปและปลอมเอกสาร ทำยังไงให้โทษหนักเป็นโทษเบา มีลูกต้องเลี้ยง 2 คน",
+            "videoUrl": "https://www.youtube.com/watch?v=8yaDtzb3T-4",
+            "thumbnail": "https://i.ytimg.com/vi/8yaDtzb3T-4/hqdefault.jpg"
+        },
+        {
+            "title": "ครอบครองอาวุธปืนและเสพ จะถูกพิพากษาจำคุกหรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=8jGvKHcguFg",
+            "thumbnail": "https://i.ytimg.com/vi/8jGvKHcguFg/hqdefault.jpg"
+        },
+        {
+            "title": "ถูกฟ้องบัตรเครดิต จำเป็นต้องมีทนายความไปด้วยหรือไม่ ไปศาลด้วยตนเองหรือขอออนไลน์ดี",
+            "videoUrl": "https://www.youtube.com/watch?v=smSeDQV-s1I",
+            "thumbnail": "https://i.ytimg.com/vi/smSeDQV-s1I/hqdefault.jpg"
+        },
+        {
+            "title": "ได้รับหมายเรียกจากพนักงานสอบสวน บัญชีม้า รีบพบพนักงานสอบสวนก่อนจะถูกหมายจับ",
+            "videoUrl": "https://www.youtube.com/watch?v=6WGwDPM4nvM",
+            "thumbnail": "https://i.ytimg.com/vi/6WGwDPM4nvM/hqdefault.jpg"
+        },
+        {
+            "title": "โดนข้อหาทำร้ายร่างกาย บุกรุกกลางคืน ทำให้เสียทรัพย์ ประกันตัวเท่าไหร่",
+            "videoUrl": "https://www.youtube.com/watch?v=wRXHxKPkkX8",
+            "thumbnail": "https://i.ytimg.com/vi/wRXHxKPkkX8/hqdefault.jpg"
+        },
+        {
+            "title": "คนค้ำประกันถูกยึดที่ดิน จะเจรจาผ่อนชำระหนี้เป็นรายเดือนได้อยู่หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=73VHTWfmYjE",
+            "thumbnail": "https://i.ytimg.com/vi/73VHTWfmYjE/hqdefault.jpg"
+        },
+        {
+            "title": "หนี้บัตรกดเงินสด ส่งไม่ไหว ทำยังไงดี จะถูกหักเงินในบัญชีไหม",
+            "videoUrl": "https://www.youtube.com/watch?v=2ljvvhxcbVk",
+            "thumbnail": "https://i.ytimg.com/vi/2ljvvhxcbVk/hqdefault.jpg"
+        },
+        {
+            "title": "กู้ยืม ค้ำประกัน หลายวง ส่วนของเพื่อนไม่ชำระหนี้ คนค้ำทำยังไงได้บ้าง คนค้ำอีกคนตายไปแล้วผลเป็นยังไง",
+            "videoUrl": "https://www.youtube.com/watch?v=_w7mls3qabQ",
+            "thumbnail": "https://i.ytimg.com/vi/_w7mls3qabQ/hqdefault.jpg"
+        },
+        {
+            "title": "ภรรยาแอบออกบัตรเครดิต และค้ำประกันรถยนต์ให้คนอื่น สามีต้องร่วมรับผิดด้วยไหม",
+            "videoUrl": "https://www.youtube.com/watch?v=Mwu9iA60W0s",
+            "thumbnail": "https://i.ytimg.com/vi/Mwu9iA60W0s/hqdefault.jpg"
+        },
+        {
+            "title": "คดีอาญา ขอเลื่อนนัดฟังคำพิพากษาศาลอุทธรณ์ได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=Dpk0ZYsbY4E",
+            "thumbnail": "https://i.ytimg.com/vi/Dpk0ZYsbY4E/hqdefault.jpg"
+        },
+        {
+            "title": "ฉ้อโกง ปลอมเอกสารสิทธิ ชดใช้ค่าเสียหายให้ผู้เสียหายแล้ว แต่ทำไมมีหมายจับมา",
+            "videoUrl": "https://www.youtube.com/watch?v=sWiHgKe0BDM",
+            "thumbnail": "https://i.ytimg.com/vi/sWiHgKe0BDM/hqdefault.jpg"
+        },
+        {
+            "title": "พ่อมีหนี้สหกรณ์และเสียชีวิตลง ลูกต้องรับผิดในหนี้แทนไหม",
+            "videoUrl": "https://www.youtube.com/watch?v=C4QSuCXcFzE",
+            "thumbnail": "https://i.ytimg.com/vi/C4QSuCXcFzE/hqdefault.jpg"
+        },
+        {
+            "title": "หมิ่นประมาท ควรปฏิเสธในชั้นสอบสวนหรือในศาลดี",
+            "videoUrl": "https://www.youtube.com/watch?v=R5rFuRrTbrk",
+            "thumbnail": "https://i.ytimg.com/vi/R5rFuRrTbrk/hqdefault.jpg"
+        },
+        {
+            "title": "ครอบครองอาวุธปืนและเสพ ศาลจะลงโทษจำคุกหรือไม่จำเลยไม่เคยทำผิดมาก่อน",
+            "videoUrl": "https://www.youtube.com/watch?v=VQ_nI9_cbhM",
+            "thumbnail": "https://i.ytimg.com/vi/VQ_nI9_cbhM/hqdefault.jpg"
+        },
+        {
+            "title": "การสืบทรัพย์และบังคับคดี จำเลยเป็นพนักงานของรัฐ ทำไงดี",
+            "videoUrl": "https://www.youtube.com/watch?v=vHWapcYHtFk",
+            "thumbnail": "https://i.ytimg.com/vi/vHWapcYHtFk/hqdefault.jpg"
+        },
+        {
+            "title": "ถูกฟ้องบัตรเครดิต ศาลไกล่เกลี่ยให้จ่ายทุกเดือน แต่เดือนนี้จ่ายข้ามเดือน ผลเป็นอย่างไร",
+            "videoUrl": "https://www.youtube.com/watch?v=tDO2LTaeguY",
+            "thumbnail": "https://i.ytimg.com/vi/tDO2LTaeguY/hqdefault.jpg"
+        },
+        {
+            "title": "ตำรวจให้ติดตู้แดง เราไม่อยากให้ ต้องทำยังไง",
+            "videoUrl": "https://www.youtube.com/watch?v=VSacmQUJ5wQ",
+            "thumbnail": "https://i.ytimg.com/vi/VSacmQUJ5wQ/hqdefault.jpg"
+        },
+        {
+            "title": "อายุไม่เกิน 18 ปี ไปแจ้งความข้อหาพรากผู้เยาว์ได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=XjzgCRqKo8Q",
+            "thumbnail": "https://i.ytimg.com/vi/XjzgCRqKo8Q/hqdefault.jpg"
+        },
+        {
+            "title": "ญาติโดนจับยาบ้า 120000 เม็ด จ้างทนายสู้คดีหรือรับสารภาพดี",
+            "videoUrl": "https://www.youtube.com/watch?v=3yZPeK4WQdQ",
+            "thumbnail": "https://i.ytimg.com/vi/3yZPeK4WQdQ/hqdefault.jpg"
+        },
+        {
+            "title": "ทนายความสามารถตรวจเช็คทะเบียนราษฎร์ได้หรือไม่ตรวจเช็คไปเพื่ออะไร",
+            "videoUrl": "https://www.youtube.com/watch?v=vOWEES5hcEU",
+            "thumbnail": "https://i.ytimg.com/vi/vOWEES5hcEU/hqdefault.jpg"
+        },
+        {
+            "title": "ฟ้องคดีซื้อขายออนไลน์ จำเลยเงียบหายไปเลยต้องทำอย่างไรต่อ",
+            "videoUrl": "https://www.youtube.com/watch?v=BWATroGM47M",
+            "thumbnail": "https://i.ytimg.com/vi/BWATroGM47M/hqdefault.jpg"
+        },
+        {
+            "title": "เช่าซื้อผิดนัดเข้างวดที่ 4 ชำระค่าเช่าซื้อบางส่วนได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=_uwo-hzGGwo",
+            "thumbnail": "https://i.ytimg.com/vi/_uwo-hzGGwo/hqdefault.jpg"
+        },
+        {
+            "title": "แม่ทำพินัยกรรมยกทรัพย์สินให้ลูกคนที่ 1 ลูกคนอื่นๆที่ไม่ได้รับทรัพย์สิน คัดค้านได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=6hxTgPR8a7o",
+            "thumbnail": "https://i.ytimg.com/vi/6hxTgPR8a7o/hqdefault.jpg"
+        },
+        {
+            "title": "กู้เงินผ่านแอพพลิเคชั่นออนไลน์ ถ้าแจ้งว่าเราใส่รหัสอะไรผิด เป็นมิจฉาชีพอย่าหลงเชื่อนะคะ",
+            "videoUrl": "https://www.youtube.com/watch?v=adONawmp08Y",
+            "thumbnail": "https://i.ytimg.com/vi/adONawmp08Y/hqdefault.jpg"
+        },
+        {
+            "title": "ถูกบังคับคดียึดที่ดิน เคลียร์เจ้าหนี้รายแรกแล้ว เจ้าหนี้รายที่ 2 เตรียมยึดที่ดินต่อเลยหรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=eEpjnqHi_Aw",
+            "thumbnail": "https://i.ytimg.com/vi/eEpjnqHi_Aw/hqdefault.jpg"
+        },
+        {
+            "title": "รถถูกจับในคดียา เจ้าของรถไม่รู้เห็นในการกระทำความผิด ขอคืนรถได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=yJe6KBfsNtQ",
+            "thumbnail": "https://i.ytimg.com/vi/yJe6KBfsNtQ/hqdefault.jpg"
+        },
+        {
+            "title": "ยาบ้า 6 เม็ดศาลพิพากษาจำคุกหรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=uZG0T4nxGtE",
+            "thumbnail": "https://i.ytimg.com/vi/uZG0T4nxGtE/hqdefault.jpg"
+        },
+        {
+            "title": "หนี้บัตรกดเงินสด บัตรเครดิต เจ้าหนี้จะยึดรถยนต์ที่กำลังผ่อนอยู่ได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=Sj_CHH57cTU",
+            "thumbnail": "https://i.ytimg.com/vi/Sj_CHH57cTU/hqdefault.jpg"
+        },
+        {
+            "title": "เปิดร้านคาเฟ่ นำโมเดลการ์ตูนมาตกแต่ง แล้วจะขายกล่องสุ่มด้วย ผิดลิขสิทธิ์หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=WeF6PWMZSy0",
+            "thumbnail": "https://i.ytimg.com/vi/WeF6PWMZSy0/hqdefault.jpg"
+        },
+        {
+            "title": "ติดแบล็คลิสอยู่ แม่โอนรถให้เป็นชื่อเรา รถจะถูกยึดหรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=p03vckQ3cZM",
+            "thumbnail": "https://i.ytimg.com/vi/p03vckQ3cZM/hqdefault.jpg"
+        },
+        {
+            "title": "เมาแล้วขับ ทำงานบริการสังคมไปแล้ว ติดคุกไปแล้ว ถ้าไม่ชดใช้ค่าเสียหาย จะถูกเพิ่มโทษหรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=XMsQRiRVqc8",
+            "thumbnail": "https://i.ytimg.com/vi/XMsQRiRVqc8/hqdefault.jpg"
+        },
+        {
+            "title": "เมาแล้วขับ ปริมาณแอลกอฮอล์ 104 แต่ทำความผิดในขณะที่ศาลรอการลงโทษ ผลจะเป็นอย่างไร",
+            "videoUrl": "https://www.youtube.com/watch?v=bgWn5SPKvZ4",
+            "thumbnail": "https://i.ytimg.com/vi/bgWn5SPKvZ4/hqdefault.jpg"
+        },
+        {
+            "title": "มีคดีหมิ่นประมาทนัดฟังคำพิพากษา ในระหว่างนี้ จะเดินทางไปต่างประเทศได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=F1ZZnqa0eLk",
+            "thumbnail": "https://i.ytimg.com/vi/F1ZZnqa0eLk/hqdefault.jpg"
+        },
+        {
+            "title": "คดียาเสพติดศาลชั้นต้นจำคุก 10 เดือน ประกันตัวได้ไหมอุทธรณ์ต่อได้หรือเปล่า",
+            "videoUrl": "https://www.youtube.com/watch?v=xPz1y7b_hEk",
+            "thumbnail": "https://i.ytimg.com/vi/xPz1y7b_hEk/hqdefault.jpg"
+        },
+        {
+            "title": "หนี้บัตรกดเงินสดและบัตรเครดิต เจ้าหนี้ยึดบ้านที่เรามีชื่อเป็นเจ้าบ้านได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=4JqNohocI94",
+            "thumbnail": "https://i.ytimg.com/vi/4JqNohocI94/hqdefault.jpg"
+        },
+        {
+            "title": "เพื่อนยืมเงินไม่คืน ไม่มีสัญญา มีแต่ chat และสลิปการโอนเงิน แนะนำไกล่เกลี่ยก่อนฟ้อง",
+            "videoUrl": "https://www.youtube.com/watch?v=os0zR7v0aTo",
+            "thumbnail": "https://i.ytimg.com/vi/os0zR7v0aTo/hqdefault.jpg"
+        },
+        {
+            "title": "ยืมเงินไปโดยอ้างว่า จะยืมไปรักษาพยาบาลซึ่งเป็นความเท็จ แจ้งความ ฐานฉ้อโกงได้ไหม",
+            "videoUrl": "https://www.youtube.com/watch?v=ZI7gdZCGgVw",
+            "thumbnail": "https://i.ytimg.com/vi/ZI7gdZCGgVw/hqdefault.jpg"
         }
     ],
     "folders": [
