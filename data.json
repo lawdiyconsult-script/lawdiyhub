@@ -823,11 +823,6 @@
             "thumbnail": "https://i.ytimg.com/vi/Rm4ikkeh8Ws/hqdefault.jpg"
         },
         {
-            "title": "13 สิงหาคม ค.ศ. 2024",
-            "videoUrl": "https://www.youtube.com/watch?v=npGzXnmQp4Q",
-            "thumbnail": "https://i.ytimg.com/vi/npGzXnmQp4Q/hqdefault.jpg"
-        },
-        {
             "title": "ถูกฟ้องศาลแต่ไม่ได้ไปศาลตามนัด ต่อมาบ้านถูกขายทอดตลาด ทำอย่างไร จะโดนคดีอะไรไหม",
             "videoUrl": "https://www.youtube.com/watch?v=3YuWEMdILR4",
             "thumbnail": "https://i.ytimg.com/vi/3YuWEMdILR4/hqdefault.jpg"
@@ -1163,6 +1158,11 @@
             "thumbnail": "https://i.ytimg.com/vi/YT6EktKlp7c/hqdefault.jpg"
         },
         {
+            "title": "ได้รับหมายเรียกและสำเนาคำฟ้อง ควรไปศาลหรือไม่ ถ้าไม่ไปจะมีปัญหาอะไรไหม",
+            "videoUrl": "https://www.youtube.com/watch?v=8yqWTVnVAuQ",
+            "thumbnail": "https://i.ytimg.com/vi/8yqWTVnVAuQ/hqdefault.jpg"
+        },
+        {
             "title": "คดีอาญา จำเลยนัดชำระหนี้ต่อมายื่นคำร้อง ขอลดการผ่อนชำระหนี้ ผู้เสียหายทำอะไรได้บ้าง",
             "videoUrl": "https://www.youtube.com/watch?v=gHOS1Tg3xdI",
             "thumbnail": "https://i.ytimg.com/vi/gHOS1Tg3xdI/hqdefault.jpg"
@@ -1288,6 +1288,31 @@
             "thumbnail": "https://i.ytimg.com/vi/iJFdFiM2Bog/hqdefault.jpg"
         },
         {
+            "title": "บัตรเครดิตและบัตรกดเงินสด ส่งเงินไปตัดแต่ดอกเบี้ย ทำยังไงดีตอนนี้เครียดมาก",
+            "videoUrl": "https://www.youtube.com/watch?v=wC_EkxUqYY8",
+            "thumbnail": "https://i.ytimg.com/vi/wC_EkxUqYY8/hqdefault.jpg"
+        },
+        {
+            "title": "เพื่อนยืมเงินแล้วไม่คืน โทรทวงตอบไม่มี แบบนี้แจ้งความฉ้อโกงหรือยักยอกได้ไหม",
+            "videoUrl": "https://www.youtube.com/watch?v=Dd7qwdaa0Lk",
+            "thumbnail": "https://i.ytimg.com/vi/Dd7qwdaa0Lk/hqdefault.jpg"
+        },
+        {
+            "title": "ฟ้องชู้เรียกค่าทดแทน ศาลชั้นต้นยกฟ้อง ถ้าจำเลยแพ้คดีชั้นอุทธรณ์แนวทางการ ชดใช้ค่าเสียหายเป็นอย่างไร",
+            "videoUrl": "https://www.youtube.com/watch?v=Ab1DedM1YRo",
+            "thumbnail": "https://i.ytimg.com/vi/Ab1DedM1YRo/hqdefault.jpg"
+        },
+        {
+            "title": "คดีอาญาไม่มีเงินประกันตัวขอเช่าหลักทรัพย์จากศาลได้ไหม และคิดราคาเท่าไหร่",
+            "videoUrl": "https://www.youtube.com/watch?v=7AXTRRF3gvM",
+            "thumbnail": "https://i.ytimg.com/vi/7AXTRRF3gvM/hqdefault.jpg"
+        },
+        {
+            "title": "คำบังคับ ระบุว่า โดนจับและจำขัง หมายความว่าอย่างไร ไม่มีเงินปิดหนี้ ทำยังไงดี",
+            "videoUrl": "https://www.youtube.com/watch?v=_jORkFLkCUo",
+            "thumbnail": "https://i.ytimg.com/vi/_jORkFLkCUo/hqdefault.jpg"
+        },
+        {
             "title": "หมิ่นประมาทด้วยการโฆษณา โพสต์ข้อความเพราะถูกแย่งแฟน ถูกเรียกค่าเสียหายห้าแสน มีทางออกอื่นไหม",
             "videoUrl": "https://www.youtube.com/watch?v=e7vNokQ0Czg",
             "thumbnail": "https://i.ytimg.com/vi/e7vNokQ0Czg/hqdefault.jpg"
@@ -1296,6 +1321,11 @@
             "title": "คดีแพ่ง ลูกหนี้ไม่มีทรัพย์สินอะไรให้ยึด สามารถยึดทรัพย์สินที่เป็นชื่อของสามีและลูกได้หรือไม่",
             "videoUrl": "https://www.youtube.com/watch?v=l3KI1eR8ZZQ",
             "thumbnail": "https://i.ytimg.com/vi/l3KI1eR8ZZQ/hqdefault.jpg"
+        },
+        {
+            "title": "คดีแพ่งศาลตัดสินให้ชำระรายเดือน ให้ทนายสืบทรัพย์แจ้งว่าไม่พบอะไร ทำอย่างไรดี",
+            "videoUrl": "https://www.youtube.com/watch?v=IfmL58A6h04",
+            "thumbnail": "https://i.ytimg.com/vi/IfmL58A6h04/hqdefault.jpg"
         },
         {
             "title": "อยู่ระหว่างอุทธรณ์คำพิพากษาคดีเช่าซื้อ แต่มีคำบังคับส่งมาที่บ้าน หมายความว่าอย่างไร",
@@ -1313,9 +1343,9 @@
             "thumbnail": "https://i.ytimg.com/vi/MyiVX8HTmjI/hqdefault.jpg"
         },
         {
-            "title": "ถูกฟ้องปลอมสลิปและปลอมเอกสาร ทำยังไงให้โทษหนักเป็นโทษเบา มีลูกต้องเลี้ยง 2 คน",
-            "videoUrl": "https://www.youtube.com/watch?v=8yaDtzb3T-4",
-            "thumbnail": "https://i.ytimg.com/vi/8yaDtzb3T-4/hqdefault.jpg"
+            "title": "ขอหนังสือรับรองคดีถึงที่สุด ใช้เวลากี่วัน ขอออนไลน์หรือไปที่ศาลดีกว่ากัน",
+            "videoUrl": "https://www.youtube.com/watch?v=5S2OC0jc55A",
+            "thumbnail": "https://i.ytimg.com/vi/5S2OC0jc55A/hqdefault.jpg"
         },
         {
             "title": "ครอบครองอาวุธปืนและเสพ จะถูกพิพากษาจำคุกหรือไม่",
@@ -1326,6 +1356,11 @@
             "title": "ถูกฟ้องบัตรเครดิต จำเป็นต้องมีทนายความไปด้วยหรือไม่ ไปศาลด้วยตนเองหรือขอออนไลน์ดี",
             "videoUrl": "https://www.youtube.com/watch?v=smSeDQV-s1I",
             "thumbnail": "https://i.ytimg.com/vi/smSeDQV-s1I/hqdefault.jpg"
+        },
+        {
+            "title": "ได้รับหมายเรียกจากพนักงานสอบสวน บัญชีม้า รีบพบพนักงานสอบสวนก่อนจะถูกหมายจับ",
+            "videoUrl": "https://www.youtube.com/watch?v=6WGwDPM4nvM",
+            "thumbnail": "https://i.ytimg.com/vi/6WGwDPM4nvM/hqdefault.jpg"
         },
         {
             "title": "โดนข้อหาทำร้ายร่างกาย บุกรุกกลางคืน ทำให้เสียทรัพย์ ประกันตัวเท่าไหร่",
@@ -1428,11 +1463,6 @@
             "thumbnail": "https://i.ytimg.com/vi/_uwo-hzGGwo/hqdefault.jpg"
         },
         {
-            "title": "แม่ทำพินัยกรรมยกทรัพย์สินให้ลูกคนที่ 1 ลูกคนอื่นๆที่ไม่ได้รับทรัพย์สิน คัดค้านได้หรือไม่",
-            "videoUrl": "https://www.youtube.com/watch?v=6hxTgPR8a7o",
-            "thumbnail": "https://i.ytimg.com/vi/6hxTgPR8a7o/hqdefault.jpg"
-        },
-        {
             "title": "กู้เงินผ่านแอพพลิเคชั่นออนไลน์ ถ้าแจ้งว่าเราใส่รหัสอะไรผิด เป็นมิจฉาชีพอย่าหลงเชื่อนะคะ",
             "videoUrl": "https://www.youtube.com/watch?v=adONawmp08Y",
             "thumbnail": "https://i.ytimg.com/vi/adONawmp08Y/hqdefault.jpg"
@@ -1441,6 +1471,11 @@
             "title": "ถูกบังคับคดียึดที่ดิน เคลียร์เจ้าหนี้รายแรกแล้ว เจ้าหนี้รายที่ 2 เตรียมยึดที่ดินต่อเลยหรือไม่",
             "videoUrl": "https://www.youtube.com/watch?v=eEpjnqHi_Aw",
             "thumbnail": "https://i.ytimg.com/vi/eEpjnqHi_Aw/hqdefault.jpg"
+        },
+        {
+            "title": "รถถูกจับในคดียา เจ้าของรถไม่รู้เห็นในการกระทำความผิด ขอคืนรถได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=yJe6KBfsNtQ",
+            "thumbnail": "https://i.ytimg.com/vi/yJe6KBfsNtQ/hqdefault.jpg"
         },
         {
             "title": "ยาบ้า 6 เม็ดศาลพิพากษาจำคุกหรือไม่",
@@ -1501,41 +1536,6 @@
             "title": "คดีแรกครอบครองยา 10 เม็ด คดีที่ 2 เสพขับ คดีที่ 2 จะประกันตัวได้ไหมศาลจะลงโทษอย่างไร",
             "videoUrl": "https://www.youtube.com/watch?v=oKxyEjgRuWQ",
             "thumbnail": "https://i.ytimg.com/vi/oKxyEjgRuWQ/hqdefault.jpg"
-        },
-        {
-            "title": "ญาติหายสาบสูญไปเกือบ 30 ปี ร้องต่อศาลเป็นบุคคลสาบสูญทำยังไงได้บ้าง",
-            "videoUrl": "https://www.youtube.com/watch?v=wVGVMRcz5LY",
-            "thumbnail": "https://i.ytimg.com/vi/wVGVMRcz5LY/hqdefault.jpg"
-        },
-        {
-            "title": "ผู้เช่าไม่จ่ายค่าเช่าบ้าน และไม่ยอมออกจากบ้าน ทำอย่างไรได้บ้าง",
-            "videoUrl": "https://www.youtube.com/watch?v=nfJROSdFxg8",
-            "thumbnail": "https://i.ytimg.com/vi/nfJROSdFxg8/hqdefault.jpg"
-        },
-        {
-            "title": "ถูกอายัดบัญชีแต่มีการชำระหนี้ไปแล้วบางส่วน ควรไปติดต่อเจ้าพนักงานบังคับคดีหรือไม่เพื่อสอบยอดหนี้",
-            "videoUrl": "https://www.youtube.com/watch?v=h1t9kFN-IKI",
-            "thumbnail": "https://i.ytimg.com/vi/h1t9kFN-IKI/hqdefault.jpg"
-        },
-        {
-            "title": "ค้ำประกันรถให้พี่ แล้วพี่ไม่ส่งค่างวด โทรไปไม่รับสายไม่อ่านไลน์ ทำอย่างไรดี",
-            "videoUrl": "https://www.youtube.com/watch?v=MP_BX_yy8EI",
-            "thumbnail": "https://i.ytimg.com/vi/MP_BX_yy8EI/hqdefault.jpg"
-        },
-        {
-            "title": "มีการฟ้องและศาลมีคำพิพากษาแล้ว อยู่ระหว่างการบังคับคดี ถ้าเราขายที่ดินไปจะมีปัญหาไหม",
-            "videoUrl": "https://www.youtube.com/watch?v=ZSnBjZyuObw",
-            "thumbnail": "https://i.ytimg.com/vi/ZSnBjZyuObw/hqdefault.jpg"
-        },
-        {
-            "title": "ลูกหนี้ไม่มีไม่หนีไม่จ่าย เจ้าหนี้ต้องทำอย่างไรถึงจะได้เงินคืน",
-            "videoUrl": "https://www.youtube.com/watch?v=Y4fgAeSnUVM",
-            "thumbnail": "https://i.ytimg.com/vi/Y4fgAeSnUVM/hqdefault.jpg"
-        },
-        {
-            "title": "ฉ้อโกงประชาชน ได้ประกันตัว รายงานตัวครบแล้ว นัดที่ต้องไปศาล ต้องเตรียมตัวอย่างไรบ้าง",
-            "videoUrl": "https://www.youtube.com/watch?v=dw9k0SP7PWw",
-            "thumbnail": "https://i.ytimg.com/vi/dw9k0SP7PWw/hqdefault.jpg"
         }
     ],
     "folders": [
