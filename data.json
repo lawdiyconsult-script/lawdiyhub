@@ -848,11 +848,6 @@
             "thumbnail": "https://i.ytimg.com/vi/Z3HJo7Z1RvM/hqdefault.jpg"
         },
         {
-            "title": "โดนเจ้าหนี้โพสต์ประจาน ทำอย่างไรได้บ้าง ไม่ได้หนีหนี้แต่ไม่มีเงินใช้ตามที่เขาต้องการ",
-            "videoUrl": "https://www.youtube.com/watch?v=MyB3Htc7Iyw",
-            "thumbnail": "https://i.ytimg.com/vi/MyB3Htc7Iyw/hqdefault.jpg"
-        },
-        {
             "title": "เป็นผู้เสียหาย คดีหมิ่นประมาทโดยการโฆษณา อยากยื่นคำร้องเรียกค่าสินไหมทดแทนตามมาตรา 44/1",
             "videoUrl": "https://www.youtube.com/watch?v=LIU_-aMyEGs",
             "thumbnail": "https://i.ytimg.com/vi/LIU_-aMyEGs/hqdefault.jpg"
@@ -1041,6 +1036,11 @@
             "title": "ถูกยืมเงินหลายหมื่นบาท มีสลิปการโอน อยากได้เงินคืนทำอย่างไรดี",
             "videoUrl": "https://www.youtube.com/watch?v=8ICpPeMXK3w",
             "thumbnail": "https://i.ytimg.com/vi/8ICpPeMXK3w/hqdefault.jpg"
+        },
+        {
+            "title": "การบังคับคดีลูกหนี้ โจทก์สามารถดำเนินการเองได้ไหมหรือต้องให้ทนายดำเนินการ",
+            "videoUrl": "https://www.youtube.com/watch?v=vM92g2lo-4w",
+            "thumbnail": "https://i.ytimg.com/vi/vM92g2lo-4w/hqdefault.jpg"
         },
         {
             "title": "พ่อกับแม่ไม่จดทะเบียน ต่อมาพ่อเสียชีวิต ไปรับเงินสงเคราะห์บุตรที่ประกันสังคม ต้องมีคำสั่งศาลคืออะไร",
@@ -1293,11 +1293,6 @@
             "thumbnail": "https://i.ytimg.com/vi/Dd7qwdaa0Lk/hqdefault.jpg"
         },
         {
-            "title": "เพื่อนยืมเงินแล้วไม่คืน โทรทวงตอบไม่มี แบบนี้แจ้งความฉ้อโกงหรือยักยอกได้ไหม",
-            "videoUrl": "https://www.youtube.com/watch?v=Dd7qwdaa0Lk",
-            "thumbnail": "https://i.ytimg.com/vi/Dd7qwdaa0Lk/hqdefault.jpg"
-        },
-        {
             "title": "ฟ้องชู้เรียกค่าทดแทน ศาลชั้นต้นยกฟ้อง ถ้าจำเลยแพ้คดีชั้นอุทธรณ์แนวทางการ ชดใช้ค่าเสียหายเป็นอย่างไร",
             "videoUrl": "https://www.youtube.com/watch?v=Ab1DedM1YRo",
             "thumbnail": "https://i.ytimg.com/vi/Ab1DedM1YRo/hqdefault.jpg"
@@ -1541,6 +1536,11 @@
             "title": "ค้ำประกันรถให้พี่ แล้วพี่ไม่ส่งค่างวด โทรไปไม่รับสายไม่อ่านไลน์ ทำอย่างไรดี",
             "videoUrl": "https://www.youtube.com/watch?v=MP_BX_yy8EI",
             "thumbnail": "https://i.ytimg.com/vi/MP_BX_yy8EI/hqdefault.jpg"
+        },
+        {
+            "title": "มีการฟ้องและศาลมีคำพิพากษาแล้ว อยู่ระหว่างการบังคับคดี ถ้าเราขายที่ดินไปจะมีปัญหาไหม",
+            "videoUrl": "https://www.youtube.com/watch?v=ZSnBjZyuObw",
+            "thumbnail": "https://i.ytimg.com/vi/ZSnBjZyuObw/hqdefault.jpg"
         }
     ],
     "folders": [
