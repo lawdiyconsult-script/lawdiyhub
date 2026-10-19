@@ -853,11 +853,6 @@
             "thumbnail": "https://i.ytimg.com/vi/Z3HJo7Z1RvM/hqdefault.jpg"
         },
         {
-            "title": "โดนเจ้าหนี้โพสต์ประจาน ทำอย่างไรได้บ้าง ไม่ได้หนีหนี้แต่ไม่มีเงินใช้ตามที่เขาต้องการ",
-            "videoUrl": "https://www.youtube.com/watch?v=MyB3Htc7Iyw",
-            "thumbnail": "https://i.ytimg.com/vi/MyB3Htc7Iyw/hqdefault.jpg"
-        },
-        {
             "title": "เป็นผู้เสียหาย คดีหมิ่นประมาทโดยการโฆษณา อยากยื่นคำร้องเรียกค่าสินไหมทดแทนตามมาตรา 44/1",
             "videoUrl": "https://www.youtube.com/watch?v=LIU_-aMyEGs",
             "thumbnail": "https://i.ytimg.com/vi/LIU_-aMyEGs/hqdefault.jpg"
@@ -1041,6 +1036,11 @@
             "title": "ฟ้องคดีกู้ยืมเงิน ค่าใช้จ่ายทนายความเท่าไหร่ มีหลักเกณฑ์คิดค่าทนายอย่างไร",
             "videoUrl": "https://www.youtube.com/watch?v=mh6zd8EuFPQ",
             "thumbnail": "https://i.ytimg.com/vi/mh6zd8EuFPQ/hqdefault.jpg"
+        },
+        {
+            "title": "แจ้งความลักทรัพย์ เจรจาไม่ติดใจเอาความและได้รับคืนของแล้ว ต่อมาจะเปลี่ยนใจเอาความจำเลยได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=MOCTKNkh45E",
+            "thumbnail": "https://i.ytimg.com/vi/MOCTKNkh45E/hqdefault.jpg"
         },
         {
             "title": "ถูกยืมเงินหลายหมื่นบาท มีสลิปการโอน อยากได้เงินคืนทำอย่างไรดี",
@@ -1293,6 +1293,11 @@
             "thumbnail": "https://i.ytimg.com/vi/iJFdFiM2Bog/hqdefault.jpg"
         },
         {
+            "title": "ฟ้องขอให้ฝ่ายชายรับรองบุตร ต้องทำอย่างไร",
+            "videoUrl": "https://www.youtube.com/watch?v=iJFdFiM2Bog",
+            "thumbnail": "https://i.ytimg.com/vi/iJFdFiM2Bog/hqdefault.jpg"
+        },
+        {
             "title": "บัตรเครดิตและบัตรกดเงินสด ส่งเงินไปตัดแต่ดอกเบี้ย ทำยังไงดีตอนนี้เครียดมาก",
             "videoUrl": "https://www.youtube.com/watch?v=wC_EkxUqYY8",
             "thumbnail": "https://i.ytimg.com/vi/wC_EkxUqYY8/hqdefault.jpg"
@@ -1536,11 +1541,6 @@
             "title": "ผู้เช่าไม่จ่ายค่าเช่าบ้าน และไม่ยอมออกจากบ้าน ทำอย่างไรได้บ้าง",
             "videoUrl": "https://www.youtube.com/watch?v=nfJROSdFxg8",
             "thumbnail": "https://i.ytimg.com/vi/nfJROSdFxg8/hqdefault.jpg"
-        },
-        {
-            "title": "ถูกอายัดบัญชีแต่มีการชำระหนี้ไปแล้วบางส่วน ควรไปติดต่อเจ้าพนักงานบังคับคดีหรือไม่เพื่อสอบยอดหนี้",
-            "videoUrl": "https://www.youtube.com/watch?v=h1t9kFN-IKI",
-            "thumbnail": "https://i.ytimg.com/vi/h1t9kFN-IKI/hqdefault.jpg"
         }
     ],
     "folders": [
