@@ -988,11 +988,6 @@
             "thumbnail": "https://i.ytimg.com/vi/nVY0Ak7lEMg/hqdefault.jpg"
         },
         {
-            "title": "หมายศาลมาแบบนี้เอาเราเข้าคุกได้ไหม ลงทะเบียนออนไลน์ไว้แล้ว",
-            "videoUrl": "https://www.youtube.com/watch?v=1NmCzjb27hc",
-            "thumbnail": "https://i.ytimg.com/vi/1NmCzjb27hc/hqdefault.jpg"
-        },
-        {
             "title": "คำบังคับ ได้รับเอกสารนี้แล้ว ต้องดำเนินการอย่างไรต่อ เตรียมชำระหนี้ให้กับเจ้าหนี้",
             "videoUrl": "https://www.youtube.com/watch?v=yF7HZNfTwj8",
             "thumbnail": "https://i.ytimg.com/vi/yF7HZNfTwj8/hqdefault.jpg"
@@ -1041,6 +1036,11 @@
             "title": "ฟ้องคดีกู้ยืมเงิน ค่าใช้จ่ายทนายความเท่าไหร่ มีหลักเกณฑ์คิดค่าทนายอย่างไร",
             "videoUrl": "https://www.youtube.com/watch?v=mh6zd8EuFPQ",
             "thumbnail": "https://i.ytimg.com/vi/mh6zd8EuFPQ/hqdefault.jpg"
+        },
+        {
+            "title": "แจ้งความลักทรัพย์ เจรจาไม่ติดใจเอาความและได้รับคืนของแล้ว ต่อมาจะเปลี่ยนใจเอาความจำเลยได้หรือไม่",
+            "videoUrl": "https://www.youtube.com/watch?v=MOCTKNkh45E",
+            "thumbnail": "https://i.ytimg.com/vi/MOCTKNkh45E/hqdefault.jpg"
         },
         {
             "title": "ถูกยืมเงินหลายหมื่นบาท มีสลิปการโอน อยากได้เงินคืนทำอย่างไรดี",
@@ -1293,6 +1293,21 @@
             "thumbnail": "https://i.ytimg.com/vi/iJFdFiM2Bog/hqdefault.jpg"
         },
         {
+            "title": "บัตรเครดิตและบัตรกดเงินสด ส่งเงินไปตัดแต่ดอกเบี้ย ทำยังไงดีตอนนี้เครียดมาก",
+            "videoUrl": "https://www.youtube.com/watch?v=wC_EkxUqYY8",
+            "thumbnail": "https://i.ytimg.com/vi/wC_EkxUqYY8/hqdefault.jpg"
+        },
+        {
+            "title": "เพื่อนยืมเงินแล้วไม่คืน โทรทวงตอบไม่มี แบบนี้แจ้งความฉ้อโกงหรือยักยอกได้ไหม",
+            "videoUrl": "https://www.youtube.com/watch?v=Dd7qwdaa0Lk",
+            "thumbnail": "https://i.ytimg.com/vi/Dd7qwdaa0Lk/hqdefault.jpg"
+        },
+        {
+            "title": "ฟ้องชู้เรียกค่าทดแทน ศาลชั้นต้นยกฟ้อง ถ้าจำเลยแพ้คดีชั้นอุทธรณ์แนวทางการ ชดใช้ค่าเสียหายเป็นอย่างไร",
+            "videoUrl": "https://www.youtube.com/watch?v=Ab1DedM1YRo",
+            "thumbnail": "https://i.ytimg.com/vi/Ab1DedM1YRo/hqdefault.jpg"
+        },
+        {
             "title": "คดีอาญาไม่มีเงินประกันตัวขอเช่าหลักทรัพย์จากศาลได้ไหม และคิดราคาเท่าไหร่",
             "videoUrl": "https://www.youtube.com/watch?v=7AXTRRF3gvM",
             "thumbnail": "https://i.ytimg.com/vi/7AXTRRF3gvM/hqdefault.jpg"
@@ -1311,11 +1326,6 @@
             "title": "คดีแพ่ง ลูกหนี้ไม่มีทรัพย์สินอะไรให้ยึด สามารถยึดทรัพย์สินที่เป็นชื่อของสามีและลูกได้หรือไม่",
             "videoUrl": "https://www.youtube.com/watch?v=l3KI1eR8ZZQ",
             "thumbnail": "https://i.ytimg.com/vi/l3KI1eR8ZZQ/hqdefault.jpg"
-        },
-        {
-            "title": "คดีแพ่งศาลตัดสินให้ชำระรายเดือน ให้ทนายสืบทรัพย์แจ้งว่าไม่พบอะไร ทำอย่างไรดี",
-            "videoUrl": "https://www.youtube.com/watch?v=IfmL58A6h04",
-            "thumbnail": "https://i.ytimg.com/vi/IfmL58A6h04/hqdefault.jpg"
         },
         {
             "title": "อยู่ระหว่างอุทธรณ์คำพิพากษาคดีเช่าซื้อ แต่มีคำบังคับส่งมาที่บ้าน หมายความว่าอย่างไร",
@@ -1531,16 +1541,6 @@
             "title": "ถูกอายัดบัญชีแต่มีการชำระหนี้ไปแล้วบางส่วน ควรไปติดต่อเจ้าพนักงานบังคับคดีหรือไม่เพื่อสอบยอดหนี้",
             "videoUrl": "https://www.youtube.com/watch?v=h1t9kFN-IKI",
             "thumbnail": "https://i.ytimg.com/vi/h1t9kFN-IKI/hqdefault.jpg"
-        },
-        {
-            "title": "ค้ำประกันรถให้พี่ แล้วพี่ไม่ส่งค่างวด โทรไปไม่รับสายไม่อ่านไลน์ ทำอย่างไรดี",
-            "videoUrl": "https://www.youtube.com/watch?v=MP_BX_yy8EI",
-            "thumbnail": "https://i.ytimg.com/vi/MP_BX_yy8EI/hqdefault.jpg"
-        },
-        {
-            "title": "มีการฟ้องและศาลมีคำพิพากษาแล้ว อยู่ระหว่างการบังคับคดี ถ้าเราขายที่ดินไปจะมีปัญหาไหม",
-            "videoUrl": "https://www.youtube.com/watch?v=ZSnBjZyuObw",
-            "thumbnail": "https://i.ytimg.com/vi/ZSnBjZyuObw/hqdefault.jpg"
         }
     ],
     "folders": [
