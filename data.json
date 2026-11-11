@@ -1043,6 +1043,11 @@
             "thumbnail": "https://i.ytimg.com/vi/3ehLgjr5Cwc/hqdefault.jpg"
         },
         {
+            "title": "พินัยกรรมแบบเขียนเองทั้งฉบับ ทำได้ด้วยตนเอง ภายใน 3 นาที",
+            "videoUrl": "https://www.youtube.com/watch?v=3ehLgjr5Cwc",
+            "thumbnail": "https://i.ytimg.com/vi/3ehLgjr5Cwc/hqdefault.jpg"
+        },
+        {
             "title": "ฟ้องคดีกู้ยืมเงิน ค่าใช้จ่ายทนายความเท่าไหร่ มีหลักเกณฑ์คิดค่าทนายอย่างไร",
             "videoUrl": "https://www.youtube.com/watch?v=mh6zd8EuFPQ",
             "thumbnail": "https://i.ytimg.com/vi/mh6zd8EuFPQ/hqdefault.jpg"
@@ -1288,9 +1293,9 @@
             "thumbnail": "https://i.ytimg.com/vi/fCrOYYFTdgI/hqdefault.jpg"
         },
         {
-            "title": "ปลดลูกหนี้จากการล้มละลาย สามารถมีทรัพย์สินเป็นชื่อตัวเองได้แล้วใช่ไหม",
-            "videoUrl": "https://www.youtube.com/watch?v=rwdNufiNdPA",
-            "thumbnail": "https://i.ytimg.com/vi/rwdNufiNdPA/hqdefault.jpg"
+            "title": "มีหมายศาลให้ไปศาล แต่ไม่สะดวกไปศาลเพราะอยู่ต่างประเทศ ทำอย่างไรได้บ้าง",
+            "videoUrl": "https://www.youtube.com/watch?v=sgPvjRGAThw",
+            "thumbnail": "https://i.ytimg.com/vi/sgPvjRGAThw/hqdefault.jpg"
         },
         {
             "title": "ฟ้องขอให้ฝ่ายชายรับรองบุตร ต้องทำอย่างไร",
@@ -1536,11 +1541,6 @@
             "title": "ญาติหายสาบสูญไปเกือบ 30 ปี ร้องต่อศาลเป็นบุคคลสาบสูญทำยังไงได้บ้าง",
             "videoUrl": "https://www.youtube.com/watch?v=wVGVMRcz5LY",
             "thumbnail": "https://i.ytimg.com/vi/wVGVMRcz5LY/hqdefault.jpg"
-        },
-        {
-            "title": "ผู้เช่าไม่จ่ายค่าเช่าบ้าน และไม่ยอมออกจากบ้าน ทำอย่างไรได้บ้าง",
-            "videoUrl": "https://www.youtube.com/watch?v=nfJROSdFxg8",
-            "thumbnail": "https://i.ytimg.com/vi/nfJROSdFxg8/hqdefault.jpg"
         }
     ],
     "folders": [
